@@ -1,0 +1,231 @@
+﻿
+/* ********** Página maestra ********** */
+
+.encabezado {
+    font-family: 'Mooli', sans-serif;
+    background-image: url('../imagenes/imgCafe_2.jpg');
+    background-size: cover;
+    background-position: center;    
+}
+.menu {
+    font-size: 1.5rem;
+}
+
+/* ********** Página inicio ********** */
+
+.titulo {
+    font-family: 'Mooli', sans-serif;
+}
+.imgFondo {
+    background-image: url('../imagenes/imgCafe_1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.cita {
+    font-family: 'Satisfy', cursive;
+    width: 60rem;
+    height: 30rem;
+    font-size: 4rem;    
+}
+
+/* ********** Página historia ********** */
+
+.txtHistoria {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.txtHistoria p {
+    text-indent: 1.5rem;
+    margin-bottom: 0;
+}
+.txtHistoria h6, .fuente {
+    margin-top: 1rem;
+}
+.fuente p {
+    text-indent: 0;    
+}
+
+/* ********** Página ¿Cómo preparar...? ********** */
+
+
+
+
+
+/* ********** Página contacto ********** */
+
+.contenedor {
+    position: relative;
+    max-width: 56.25rem    
+}
+.contenedor .imgContacto {
+    width: 100%;
+    border: 0.5rem solid #17a2b8;
+    border-radius: 0.75rem;
+}
+.contenedor .contenido {
+    position: absolute;
+    top: 20.5rem;
+    left: 0.5rem;
+    right: 0.5rem;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 1.25rem;
+}
+
+.contenido blockquote {
+    font-family: 'Satisfy', cursive;
+    width: 100%;
+    font-size: 3.5rem;
+}
+
+/* ********** footer ********** */
+
+.colorFooter {
+    background-color: #003958;
+}
+
+/* ********** Media queries - página maestra ********** */
+
+@media screen and (min-width: 576px) {
+    .display-2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    .menu {
+        font-size: 1rem;
+    }    
+}
+@media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 992px) {
+    
+}
+@media screen and (min-width: 1200px) {
+    .menu {
+        font-size: 1.25rem;
+    }    
+}
+@media screen and (min-width: 1424px) {
+    .display-2 {
+        font-size: 5.5rem;        
+    }
+    .menu {
+        font-size: 1.5rem;
+    }    
+}
+
+/* ********** Media queries - página inicio ********** */
+
+@media screen and (min-width: 576px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .display-4 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-with: 1424px) {
+    .display-4 {
+        font-size: 3.5rem;
+    }
+}
+
+/* ********** Media queries - página historia ********** */
+
+@media screen and (min-width: 576px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .display-4 {
+        font-size: 3rem;
+    }
+}
+@media screen and (min-with: 1424px) {
+    .display-4 {
+        font-size: 3.5rem;
+    }
+}
+
+/* ********** Media queries - página galería ********** */
+
+@media screen and (min-width: 576px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .display-4 {
+        font-size: 3rem;        
+    }    
+}
+@media screen and (min-with: 1424px) {
+    .display-4 {
+        font-size: 3.5rem;
+    }
+}
+
+/* ********** Media queries - página ¿Cómo preparar...? ********** */
+
+@media screen and (min-width: 576px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }    
+}
+@media screen and (min-width: 992px) {
+    .display-4 {
+        font-size: 3rem;
+    }    
+}
+@media screen and (min-with: 1424px) {
+    .display-4 {
+        font-size: 3.5rem;
+    }
+}
+
+/* ********** Media queries - página Contacto ********** */
+
+@media screen and (min-width: 576px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    .contenedor .contenido  {
+        top: 13rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .display-4 {
+        font-size: 3rem;
+    }
+    .contenedor .contenido {
+        top: 13rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .contenedor .contenido {
+        top: 13rem;
+    }
+}
+
+@media screen and (min-with: 1200px) {
+    .display-4 {
+        font-size: 3.5rem;
+    }
+    .contenedor .contenido {
+        top: 17rem;
+    }
+}
+
+@media screen and (min-width: 1513px) {
+    .contenedor .contenido {
+        top: 20.5rem;
+    }
+}
+
