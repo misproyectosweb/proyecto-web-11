@@ -12,10 +12,10 @@ Este proyecto fue creado con las siguientes herramientas de nivel front-end y ba
 
 Este sitio web fue creado y desarrollado usando la plataforma **Microsoft Visual Studio Community 2019.** Además está adaptado para ejecutarse en dispositivos móviles. El archivo **inicio.aspx** es el que contiene la página de inicio o página principal del sitio web y cada página que compone este sitio consta de varias secciones:
 
-**1. Encabezado:** donde se muestra el logotipo de la organización
-**1. Menú de navegación:** contiene un menú de opciones. Este menú le permite al usuario ser dirigido hacia las demás páginas que conforman el sitio web, en donde encontrará otros servicios que se le pueden ofrecer
-**1. Sección principal:** muestra una serie de contenidos con temas de interés para el usuario
-**1. Pie de página:** muestra la información de contacto de la organización
+**1. **Encabezado:** donde se muestra el logotipo de la organización
+**1. **Menú de navegación:** contiene un menú de opciones. Este menú le permite al usuario ser dirigido hacia las demás páginas que conforman el sitio web, en donde encontrará otros servicios que se le pueden ofrecer
+**1. **Sección principal:** muestra una serie de contenidos con temas de interés para el usuario
+**1. **Pie de página:** muestra la información de contacto de la organización
 
 El menú principal consta de cinco opciones:
 
