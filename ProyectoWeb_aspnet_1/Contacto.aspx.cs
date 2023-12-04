@@ -10,7 +10,6 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Windows.Forms;
 
-
 namespace ProyectoWeb_aspnet_1
 {
     public partial class Contacto : System.Web.UI.Page {
@@ -39,7 +38,7 @@ namespace ProyectoWeb_aspnet_1
             string cuerpoMensaje =
                 "<body>" +
                     "<h2>Nuevo comentario desde nuestra página web</h2>" +
-                    "<p><strong>Nombre: </strong></p>" + txtNombre.Text.Trim() +
+                    "<p><strong>Nombre: </strong></p>" + txtNombre.Text.Trim() + 
                     "<p><strong>Correo: </strong></p>" + txtCorreo.Text.Trim() +
                     "<p><strong>Dirección: </strong></p>" + txtDireccion.Text.Trim() +
                     "<p><strong>Teléfono casa: </strong></p>" + txtTelCasa.Text.Trim() +
@@ -95,10 +94,7 @@ namespace ProyectoWeb_aspnet_1
                 smtp.EnableSsl = true;
 
                 // Se realiza el envío del correo
-                smtp.Send(mCorreo);
-
-                //Configuramos un mensaje para indicar si se envió el correo
-                MessageBox.Show("Mensaje enviado con éxito", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                smtp.Send(mCorreo);                
             }
             catch (Exception error)
             {
@@ -120,38 +116,10 @@ namespace ProyectoWeb_aspnet_1
         {            
             CuerpoCorreo();
             EnviarCorreo();
-            LimpiarCampos();
+
+            Response.Redirect("correoAceptado.aspx");
+
+            //LimpiarCampos();
         }
     }
 }
-
-
-
-
-//"<body>" +
-//    "<h2>Nuevo comentario desde nuestra página web</h2>" +
-//    "<p><strong>Nombre: </strong></p>" + txtNombre.Text.Trim() +
-//    "<p><strong>Correo: </strong></p>" + txtCorreo.Text.Trim() +
-//    "<p><strong>Dirección: </strong></p>" + txtDireccion.Text.Trim() +
-//    "<p><strong>Teléfono casa: </strong></p>" + txtTelCasa.Text.Trim() +
-//    "<p><strong>Teléfono celular: </strong></p>" + txtTelCelular.Text.Trim() +
-//    "<p><strong>Mensaje: </strong></p>" + txtComentario.Text.Trim() +
-//"</body>";
-
-
-//"<body>" +
-//    "<h2>Nuevo comentario desde nuestra página web</h2>" +
-//     "<ul class="list-unstyled">"
-//          "<li><strong>Nombre: </strong></li>" + txtNombre.Text.Trim() +    
-//          "<li><strong>Correo: </strong></li>" + txtCorreo.Text.Trim() +
-//          "<li><strong>Dirección: </strong></li>" + txtDireccion.Text.Trim() +
-//          "<li><strong>Teléfono casa: </strong></li>" + txtTelCasa.Text.Trim() +
-//          "<li><strong>Teléfono celular: </strong></li>" + txtTelCelular.Text.Trim() +
-//          "<li><strong>Mensaje: </strong></li>" + txtComentario.Text.Trim() +
-//      "</ul>"
-//"</body>";
-
-//    // Establece la forma de entrega del mensaje de correo **
-//    smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
-
-// **********************************************************************************************************************

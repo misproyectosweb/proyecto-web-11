@@ -57,27 +57,42 @@
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </main> 
-        <footer class="pb-4" style="background-color:#003958;">
-            <div class="container text-white">
-                <h3 class="mb-0 py-4 text-white text-center">Manténgase en contacto con nosotros</h3>
-                <div class="row">
+        <footer style="background-color:#003958;">
+            <div class="container-fluid text-white">
+                <h3 class="mb-0 pt-4 text-white text-center">Manténgase en contacto con nosotros</h3>
+                <div class="row my-4">
                     <div class="col">
-                        <ul class="list-group ml-4 text-white">
+                        <ul class="list-group ml-5 text-white">
+                            <li class="list-group-item border border-0 colorFooter"><a href="Inicio.aspx" class="text-white"><i class="bi bi-house-door-fill mr-3"></i>Inicio</a></li>
+                            <li class="list-group-item border border-0 colorFooter"><a href="Historia.aspx" class="text-white"><i class="bi bi-calendar-date-fill mr-3"></i>Historia</a></li>
+                            <li class="list-group-item border border-0 colorFooter"><a href="Galeria.aspx" class="text-white"><i class="bi bi-image mr-3"></i>Galería</a></li>
+                            <li class="list-group-item border border-0 colorFooter"><a href="Recetas.aspx" class="text-white"><i class="bi bi-receipt mr-3"></i>¿Cómo preparar...?</a></li>
+                            <li class="list-group-item border border-0 colorFooter"><a href="Contacto.aspx" class="text-white"><i class="bi bi-envelope-fill mr-3"></i>Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="list-group ml-5 text-white">
                             <li class="list-group-item border border-0 colorFooter"><i class="bi bi-telephone-fill mr-3"></i>(+506) 222-2222</li>
                             <li class="list-group-item border border-0 colorFooter"><i class="bi bi-phone-fill mr-3"></i>(+506) 8888-8888</li>
                             <li class="list-group-item border border-0 colorFooter"><i class="bi bi-whatsapp mr-3"></i>(+506) 8888-9999</li>                            
                             <li class="list-group-item border border-0 colorFooter"><i class="bi bi-envelope-fill mr-3"></i>correo@correo.com</li>
+                            <li class="list-group-item border border-0 colorFooter"><i class="bi bi-geo-alt-fill mr-3"></i>Lorem ipsum dolor sit amet, consectetur</li>
                         </ul>
-                    </div>
-                    <div class="col text-right">
+                    </div>                    
+                    <div class="col">
                         <ul class="list-group ml-4 text-white">
                             <li class="list-group-item border border-0 colorFooter"><a href="#" class="text-white"><i class="bi bi-facebook mr-3"></i>Un buen café para el alma</a></li>
-                            <li class="list-group-item border border-0 colorFooter"><a href="#" class="text-white"><i class="bi bi-instagram mr-3"></i>Un buen café para el alma</a></li>
-                            <li class="list-group-item border border-0 colorFooter"><a href="#" class="text-white"><i class="bi bi-youtube mr-3"></i>Un buen café para el alma</a>
-                            <li class="list-group-item border border-0 colorFooter"><a href="#" class="text-white"><i class="bi bi-pinterest mr-3"></i>Un buen café para el alma</a>
+                            <li class="list-group-item border border-0 colorFooter"><a href="#" class="text-white"><i class="bi bi-instagram mr-3"></i>Un buen café para el alma</a></li>                            
+                            <li class="list-group-item border border-0 colorFooter"><a href="#" class="text-white"><i class="bi bi-pinterest mr-3"></i>Un buen café para el alma</a></li>
+                            <li class="list-group-item border border-0 colorFooter"><a href="#" class="text-white"><i class="bi bi-youtube mr-3"></i>Un buen café para el alma</a></li>                            
                         </ul>
                     </div>
-                </div>                                
+                </div> 
+                <div class="text-center">
+                    <div class="py-3 border-top border-white">
+                        <p class="mb-0">Sitio web creado por Paulo C. Gómez - Derechos reservados 2024</p>
+                    </div>
+                </div>
             </div>
         </footer>
 

@@ -144,6 +144,8 @@
     <Content Include="archivos\cafe_irlandes.pdf" />
     <Content Include="archivos\cafe_moka_menta.pdf" />
     <Content Include="archivos\latte_pumpkin_spice.pdf" />
+    <Content Include="correoAceptado.aspx" />
+    <Content Include="correoRechazado.aspx" />
     <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
     <Content Include="Scripts\jquery-3.0.0.min.js" />
@@ -275,6 +277,20 @@
     </Compile>
     <Compile Include="Recetas.aspx.designer.cs">
       <DependentUpon>Recetas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="correoAceptado.aspx.cs">
+      <DependentUpon>correoAceptado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="correoAceptado.aspx.designer.cs">
+      <DependentUpon>correoAceptado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="correoRechazado.aspx.cs">
+      <DependentUpon>correoRechazado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="correoRechazado.aspx.designer.cs">
+      <DependentUpon>correoRechazado.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
