@@ -19,11 +19,11 @@ Este sitio web fue creado y desarrollado usando la plataforma **Microsoft Visual
 
 El menú principal consta de cinco opciones:
 
-**1.	Inicio:** es la página de inicio del sitio web
-**2.	Historia:** muestra una breve reseña de cómo se descubrió, popularizó y comercializó el café tanto en Costa Rica como a nivel internacional
-**3.	Galería:** exhibe un conjunto de fotografías que enseñan cómo se trabajaba con el café desde inicios del siglo XIX
-**4.	¿Cómo preparar…?:** muestra una serie de bebidas preparadas a base de café
-**5.	Contacto:** presenta un formulario de contacto al usuario donde tiene la opción de dejar sus datos y realizar un breve comentario acerca de su experiencia al visitar el sitio web
+**1.	**Inicio:** es la página de inicio del sitio web
+**2.	**Historia:** muestra una breve reseña de cómo se descubrió, popularizó y comercializó el café tanto en Costa Rica como a nivel internacional
+**3.	**Galería:** exhibe un conjunto de fotografías que enseñan cómo se trabajaba con el café desde inicios del siglo XIX
+**4.	**¿Cómo preparar…?:** muestra una serie de bebidas preparadas a base de café
+**5.	**Contacto:** presenta un formulario de contacto al usuario donde tiene la opción de dejar sus datos y realizar un breve comentario acerca de su experiencia al visitar el sitio web
 
 Dentro del sitio web hay una Master Page o página maestra. Esta página tiene programado un código como contenido base, el cual será heredado y reutilizado en las otras páginas del sitio que soliciten de dicho contenido y estructura. Específicamente, en este sitio web, las secciones que requieren el contenido de la página maestra son: **el encabezado, el menú de navegación y el pie de página.**
 
