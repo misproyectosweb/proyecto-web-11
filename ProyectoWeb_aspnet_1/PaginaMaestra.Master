@@ -6,14 +6,17 @@
     <head runat="server">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <title>Un buen café para el alma</title>
+
         <asp:ContentPlaceHolder ID="head" runat="server">
         </asp:ContentPlaceHolder>
+
         <link href="Content/bootstrap.min.css" rel="stylesheet" />        
         <link rel="shortcut icon" type="image/x-icon" href="imagenes/dbjBebida_7.png"/>   
         <link href="estilos/estilosGenerales.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
         <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Mooli&display=swap" rel="stylesheet">
+                
         <script src="Scripts/jquery-3.0.0.min.js"></script>
         <script src="Scripts/bootstrap.min.js"></script>        
     </head>
@@ -105,6 +108,17 @@
             function noResaltarOpcion(id, color) {
                 document.getElementById(id).style.background = color;
             }
+        </script>
+
+        <script>
+            $(document).ready(function () {
+                $(function () {
+                    $(".btnTexto").bind("click", function () {
+                        $(this).text($(this).text() === "Ocultar información" ? "Mostrar información" : "Ocultar información");
+                        $(this).prev().toggle()
+                    });
+                });
+            });
         </script>
     </body>
 </html>
