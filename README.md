@@ -38,11 +38,11 @@ A continuación se presentan algunas imágenes del sitio web descrita anteriorme
 **==========================================================================**
 ![inicio_3](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/f35fc696-84a3-4c8a-b55f-a3bc0c134505)
 **==========================================================================**
-![historia_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/5c0ab7b8-19bb-4d5d-9dd3-bfc05e47fdb8)
+![Historia_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/e50b6bfb-211d-4386-a154-7b4cc67e62cf)
 **==========================================================================**
-![historia_2](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/d9a50c6a-eb66-4b0b-93ec-a4da2b45395b)
+![Historia_2](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/4a47ec35-1aa4-4d8c-88f4-62721d751b63)
 **==========================================================================**
-![historia_3](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/135dfe23-8544-4611-82d1-989d53cb1b82)
+![Historia_3](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/aeac363b-ce68-40ee-92a7-6a102e19c943)
 **==========================================================================**
 ![galeria_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/a6e7d554-6539-4cf9-b197-8428dcf32658)
 **==========================================================================**
