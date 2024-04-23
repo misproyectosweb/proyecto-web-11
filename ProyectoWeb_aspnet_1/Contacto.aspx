@@ -12,7 +12,7 @@
     </div>
     <div class="row justify-content-center pb-3">
         <div class="text-center">
-            <h2 class="mb-0 titulo">¿Te gustó nuestra página web?</h2>
+            <h2 class="mb-0 titulo">¿Te gustó nuestro sitio web?</h2>
         </div>
     </div>
     <div class="row justify-content-center pb-5">

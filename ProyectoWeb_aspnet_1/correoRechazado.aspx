@@ -52,17 +52,17 @@
                 </div>
                 <div class="row justify-content-around border-bottom border-top border-secondary">    
                     <div class="my-2">                
-                        <a href="#" target="_blank"><i class="bi bi-facebook text-primary" style="font-size: 2rem; color:black"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook text-primary" style="font-size: 2rem; color:black"></i></a>
                     </div>                
                     <div class="my-2">                
-                        <a href="#" target="_blank"><i class="bi bi-whatsapp text-success" style="font-size: 2rem; color:black"></i></a>
+                        <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp text-success" style="font-size: 2rem; color:black"></i></a>
                     </div>
                     <div class="my-2">                
-                        <a href="#" target="_blank"><i class="bi bi-instagram text-danger" style="font-size: 2rem; color:black"></i></a>
+                        <a href="http://instagram.com/" target="_blank"><i class="bi bi-instagram text-danger" style="font-size: 2rem; color:black"></i></a>
                     </div>
                     <div class="my-2">                
-                        <a href="#" target="_blank"><i class="bi bi-youtube text-danger" style="font-size: 2rem; color:black"></i></a>
-                    </div>    
+                        <a href="http://www.youtube.com/" target="_blank"><i class="bi bi-youtube text-danger" style="font-size: 2rem; color:black"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
