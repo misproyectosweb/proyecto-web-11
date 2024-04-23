@@ -5,91 +5,126 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <div class="py-5">
+    <div class="row justify-content-center py-5">
+        <div class="text-center titulo">            
+            <h1 class="mb-0 text-center display-4 my-3">La historia del café en imágenes</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center border-bottom border-dark-50 mb-4 px-3">
+            <p class="mb-4 text-center">La historia del café se pierde en la noche de los tiempos; pero en el torbellino de la vida moderna, el granito pardo sigue animando una industria muy importante. Para nosotros los occidentales el café es de trescientos años, pero en el Oriente ya se había extendido como una bebida, en todos los niveles de la sociedad, desde tiempos atrás.</p>
+        </div>
+    </div>
 
-        <div class="text-center pb-4 titulo">
-            <img src="imagenes/lineaDecorativa_1.png" class="img-fluid mx-auto d-block" alt="" />
-            <h1 class="text-center display-4 mb-5 mt-3">La historia del café en imágenes</h1>
-            <div class="container">
-                <div class="row justify-content-center border-bottom border-dark-50 mb-4">
-                    <p class="mb-4 text-center">La historia del café se pierde en la noche de los tiempos; pero en el torbellino de la vida moderna, el granito pardo sigue animando una industria muy importante. Para nosotros los occidentales el café es de trescientos años, pero en el Oriente ya se había extendido como una bebida, en todos los niveles de la sociedad, desde tiempos atrás.</p>
-                </div>
+    <!-- Fila uno -->
+    <div class="row p-4 justify-content-center">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="datosFotos mb-3">
+                <img src="imagenes/fotoHistoriaCafe_01.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Recolectores de café</p>
+                <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> 1950 - publicada el 23 de febrero de 2013</p>
+                <p><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://www.facebook.com/photo/?fbid=564275500257371&set=a.564241610260760&locale=es_LA" target="_blank">Costa Rica y su historia</a></p>
             </div>
-        </div>        
-        
-        <div class="row px-3 pt-4">  
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center">
-                <figure class="figure">
-                    <img src="imagenes/fotoHistoriaCafe_1.jpg" class="figure-img img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="imagen_1">                    
-                    <figcaption class="figure-caption">Recolectores de café, 1922<br />Mi Costa Rica de antaño<br />https://micostaricadeantano.com/2020/12/29/casona-finca-la-caja-uruca-san-jose-1851-1900</figcaption>
-                </figure>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="datosFotos mb-3">
+                <img src="imagenes/fotoHistoriaCafe_02.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Beneficio de Café, Pejibaye, Jiménez, Cartago</p>
+                <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> aproximadamente 1950</p>
+                <p><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://micostaricadeantano.com/2021/02/26/beneficio-de-cafe-pejibaye-jimenez-cartago-1901-1950" target="_blank">Mi Costa Rica de antaño</a></p>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center">
-                <figure class="figure">
-                    <img src="imagenes/fotoHistoriaCafe_2.jpg" class="figure-img img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="imagen_2">
-                    <figcaption class="figure-caption">Beneficio de Café, Pejibaye, Jiménez, Cartago, 1901-1950<br />Mi Costa Rica de antaño<br />https://micostaricadeantano.com/2021/02/26/beneficio-de-cafe-pejibaye-jimenez-cartago-1901-1950</figcaption>
-                </figure>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="datosFotos">
+                <img src="imagenes/fotoHistoriaCafe_03.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Cafetalera Miramontes, Heredia</p>
+                <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> aproximadamente 2010</p>
+                <p><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://micostaricadeantano.com/2019/09/18/edificaciones-finca-cafetalera-miramontes-heredia-1851-1900/" target="_blank">Mi Costa Rica de antaño</a></p>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center">
-                <figure class="figure">
-                    <img src="imagenes/fotoHistoriaCafe_3.jpg" class="figure-img img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="imagen_3">                    
-                    <figcaption class="figure-caption">Acarreando café, finca Hermes, Granadilla, 1922<br />Mi Costa Rica de antaño<br />https://micostaricadeantano.com/2017/12/11/manuel-gomez-miralles-fotografo/acarreando-cafe-1922</figcaption>
-                </figure>
-            </div> 
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center">
-                <figure class="figure">
-                    <img src="imagenes/fotoHistoriaCafe_4.jpg" class="figure-img img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="imagen_4">                    
-                    <figcaption class="figure-caption">Casona Finca La Caja, Uruca, San José, 1851-1900<br />Mi Costa Rica de antaño<br />https://micostaricadeantano.com/2020/12/29/casona-finca-la-caja-uruca-san-jose-1851-1900</figcaption>
-                </figure>
+        </div>
+    </div>
+
+    <!-- Fila dos -->
+    <div class="row p-4 justify-content-center">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="datosFotos mb-3">
+                <img src="imagenes/fotoHistoriaCafe_04.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Casona Finca La Caja, Uruca, San José.</p>
+                <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> 1912</p>
+                <p><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://micostaricadeantano.com/2020/12/29/casona-finca-la-caja-uruca-san-jose-1851-1900" target="_blank">Mi Costa Rica de antaño</a></p>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center">
-                <figure class="figure">
-                    <img src="imagenes/fotoHistoriaCafe_5.jpg" class="figure-img img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="imagen_5">
-                    <figcaption class="figure-caption">Cafetería y refresquería en San José, 1917<br />Alimentación y Cultura, Universidad de Costa Rica, Escuela de Nutrición<br />https://alimentacionycultura.ucr.ac.cr/index.php/2023/02/15/las-pulperias-y-el-consumo-de-cafe-en-costa-rica</figcaption>
-                </figure>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="datosFotos mb-3">
+                <img src="imagenes/fotoHistoriaCafe_05.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Cafetería y refresquería en San José</p>
+                <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> 1917</p>
+                <p><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://alimentacionycultura.ucr.ac.cr/index.php/2023/02/15/las-pulperias-y-el-consumo-de-cafe-en-costa-rica" target="_blank">UCR - Escuela de nutrición</a></p>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center">
-                <figure class="figure">
-                    <img src="imagenes/fotoHistoriaCafe_6.jpg" class="figure-img img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="imagen_6">                    
-                    <figcaption class="figure-caption">Transportando café desde el centro del país a las costas<br />Costa Rica@CRC1821<br />https://twitter.com/CRC1821</figcaption>
-                </figure>
-            </div> 
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center">
-                <figure class="figure">
-                    <img src="imagenes/fotoHistoriaCafe_7.jpg" class="figure-img img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="imagen_7">
-                    <figcaption class="figure-caption">Descargando café, 1910.<br />Costa Rica y su historia<br />https://es-la.facebook.com/Costaricaysuhistoria</figcaption>
-                </figure>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="datosFotos">
+                <img src="imagenes/fotoHistoriaCafe_06.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Asoleando café, San José</p>
+                <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> 1940 - publicada el 26 de febrero de 2013</p>
+                <p><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://www.facebook.com/photo/?fbid=566044946747093&set=a.564241610260760&locale=es_LA" target="_blank">Costa Rica y su historia</a></p>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center">
-                <figure class="figure">
-                    <img src="imagenes/fotoHistoriaCafe_8.jpg" class="figure-img img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="imagen_8">
-                    <figcaption class="figure-caption">200 años de exportar café ¿Por qué es tan importante?<br />Soy Barista - Fabiola Solano / fabiolasolano@soybarista.com<br />https://www.soybarista.com/200-anos-de-exportar-cafe-por-que-es-tan-importante</figcaption>
-                </figure>
+        </div>
+    </div>
+
+    <!-- Fila tres -->
+    <div class="row p-4 justify-content-center">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="datosFotos mb-3">
+                <img src="imagenes/fotoHistoriaCafe_07.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Descargando café</p>
+                <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> 1910 - publicada el 26 de febrero de 2013</p>
+                <p><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://www.facebook.com/Costaricaysuhistoria/photos/a.564241610260760/566044776747110/?type=3&locale=es_LA" target="_blank">Costa Rica y su historia</a></p>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center">
-                <figure class="figure">
-                    <img src="imagenes/fotoHistoriaCafe_9.jpg" class="figure-img img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="imagen_9">
-                    <figcaption class="figure-caption">Finca de café, San José, 1910<br />Ministerio de Agricultura y Ganadería<br />https://www.mag.go.cr/acerca_del_mag/historia/historia%20grafica-MAG-100anos-ago-2015.html</figcaption>
-                </figure>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="datosFotos mb-3">
+                <img src="imagenes/fotoHistoriaCafe_08.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> 200 años de exportar café ¿Por qué es tan importante?</p>
+                <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> desconocido</p>
+                <p><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://www.soybarista.com/200-anos-de-exportar-cafe-por-que-es-tan-importante" target="_blank">Soy Barista</a></p>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center">
-                <figure class="figure">
-                    <img src="imagenes/fotoHistoriaCafe_10.jpg" class="figure-img img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="imagen_10">
-                    <figcaption class="figure-caption">Beneficio de café, Heredia, 1911<br />Ministerio de Agricultura y Ganadería<br />https://www.mag.go.cr/acerca_del_mag/historia/historia%20grafica-MAG-100anos-ago-2015.html</figcaption>
-                </figure>
-            </div> 
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center">
-                <figure class="figure">
-                    <img src="imagenes/fotoHistoriaCafe_11.jpg" class="figure-img img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="imagen_11">
-                    <figcaption class="figure-caption">Acarreo de café para la exportación. La Garita, Alajuela, 1911<br />Ministerio de Agricultura y Ganadería<br />https://www.mag.go.cr/acerca_del_mag/historia/historia%20grafica-MAG-100anos-ago-2015.html</figcaption>
-                </figure>
-            </div> 
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 d-flex flex-row justify-content-center">
-                <figure class="figure">
-                    <img src="imagenes/fotoHistoriaCafe_12.jpg" class="figure-img img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="imagen_12">
-                    <figcaption class="figure-caption">San José, Beneficio de café en finca La Verbena, San Felipe de Alajuelita, 1920<br />Fotografias antiguas de Costa Rica<br />https://www.facebook.com/photo/?fbid=5027377483944727&set=gm.5131249376902079</figcaption>
-                </figure>
-            </div>            
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="datosFotos">
+                <img src="imagenes/fotoHistoriaCafe_09.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Finca de café, San José</p>
+                <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> 1910</p>
+                <p><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://www.mag.go.cr/acerca_del_mag/historia/historia%20grafica-MAG-100anos-ago-2015.html" target="_blank">Ministerio de Agricultura y Ganadería</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fila cuatro -->
+    <div class="row p-4 mb-5 justify-content-center">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="datosFotos mb-3">
+                <img src="imagenes/fotoHistoriaCafe_10.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Beneficio de café, Heredia</p>
+                <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> entre 1911 y 1914</p>
+                <p><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://www.mag.go.cr/acerca_del_mag/historia/historia%20grafica-MAG-100anos-ago-2015.html" target="_blank">Ministerio de Agricultura y Ganadería</a></p>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="datosFotos mb-3">
+                <img src="imagenes/fotoHistoriaCafe_11.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Acarreo de café para exportación. La Garita, Alajuela</p>
+                <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> entre 1911 y 1914</p>
+                <p><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://www.mag.go.cr/acerca_del_mag/historia/historia%20grafica-MAG-100anos-ago-2015.html" target="_blank">Ministerio de Agricultura y Ganadería</a></p>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="datosFotos">
+                <img src="imagenes/fotoHistoriaCafe_12.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Beneficio de café, finca La Verbena, San Felipe, Alajuelita</p>
+                <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> 1920 - publicada el 26 de setiembre de 2021</p>
+                <p><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://www.facebook.com/photo/?fbid=5027377483944727&set=gm.5131249376902079" target="_blank">Fotografias antiguas de Costa Rica</a></p>
+            </div>
         </div>
     </div>
 
