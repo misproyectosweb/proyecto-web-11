@@ -31,41 +31,73 @@ Para el formulario de contacto se programaron validaciones utilizando las herram
 
 A continuación se presentan algunas imágenes del sitio web descrita anteriormente:
 
-
-![inicio_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/74eda8b6-3d4d-4add-8f8f-b832f0fb1e8a)
+![01  inicio_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/f9e78ec0-fc07-444e-95c4-851a93383af0)
 **==========================================================================**
-![inicio_2](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/2c8cdf70-e09d-410b-b0fb-49fa6861014a)
+![01  inicio_2](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/f2f0a6a3-defc-49b5-85c4-a349bf809bea)
 **==========================================================================**
-![inicio_3](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/f35fc696-84a3-4c8a-b55f-a3bc0c134505)
+![01  inicio_3](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/977b210e-e70d-45b8-aba0-6e7bbc737e36)
 **==========================================================================**
-![Historia_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/e50b6bfb-211d-4386-a154-7b4cc67e62cf)
+![01  inicio_4](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/2d6afcfe-8cf8-49a1-81c9-76c2d011dcf5)
 **==========================================================================**
-![Historia_2](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/4a47ec35-1aa4-4d8c-88f4-62721d751b63)
+![01  inicio_5](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/c061ff5b-8c44-4acc-a113-e259ec2fca48)
 **==========================================================================**
-![Historia_3](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/aeac363b-ce68-40ee-92a7-6a102e19c943)
+![01  inicio_6](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/e85b79cd-bcd7-419c-9e67-3af50b7da8b3)
 **==========================================================================**
-![galeria_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/a6e7d554-6539-4cf9-b197-8428dcf32658)
+![01  inicio_7](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/8462d63b-adf8-4a00-b568-ba68e1d36fa0)
 **==========================================================================**
-![galeria_2](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/29e27f5c-92e0-4de9-8601-aaaa0a8d2132)
+![02  historia_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/b64f4399-810b-4c6a-bde1-d4ad7cdff5ff)
 **==========================================================================**
-![galeria_3](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/6e5440f6-85d1-4dad-8ca0-bc58faa46cf6)
+![02  historia_2](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/791d6a93-b4be-4eb3-900d-de177c195276)
 **==========================================================================**
-![receta_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/6bc62f6e-cf51-418e-8d95-63aed49821b8)
+![02  historia_3](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/a8aec7a7-8ec5-4231-b388-c0f69009fd0b)
 **==========================================================================**
-![receta_2](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/82b1e049-c06d-4c39-abba-43d9e418dbe0)
+![02  historia_4](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/901e0537-d69e-4c7e-a485-138c0d0d878e)
 **==========================================================================**
-![receta_3](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/dcc06780-e82e-4e50-bc16-0809ac32a0a2)
+![02  historia_5](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/86efc37f-cd65-4aef-a9e9-6b35cc7ab51d)
 **==========================================================================**
-![contacto_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/0bc5dc66-abcc-42c8-b285-0036ad1ad72f)
+![02  historia_6](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/7b437ff6-3a45-4f35-ba94-6ad0b7e09d75)
 **==========================================================================**
-![contacto_2](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/cc6c2d07-15c2-44f7-9b59-5dae2b62feb8)
+![03  galeria_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/74547ff7-d322-4860-ab60-b4b2b2e595db)
 **==========================================================================**
-![contacto_3](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/492b588b-2b8a-4f9a-93fe-9e45519871bf)
+![03  galeria_2](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/1fbe2b9e-93ae-4c4d-8146-ad3dcb8a7188)
 **==========================================================================**
-![contacto_4](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/d7977a98-ba3a-433a-bda9-847a20c3c3e9)
+![03  galeria_3](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/b3100b44-dfc6-4828-a0d5-331e0d60379b)
 **==========================================================================**
-![correo_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/fa807a75-bef8-4052-8eb5-12e69035c6f6)
+![03  galeria_4](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/abfa2c4a-9421-401d-9f67-edea4ed8ef84)
 **==========================================================================**
-![correo_2](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/c9c1d0e1-813f-47e2-a3b1-5f8e3367f756)
+![03  galeria_5](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/82cde6f8-afd9-4f55-abbd-1dc98bb4b51d)
 **==========================================================================**
-![correo_3](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/c00e538e-ae88-4ee9-96dd-f9413b4f1bdd)
+![03  galeria_6](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/4b5b6d03-19d8-4ad1-a568-d1023e0ee2be)
+**==========================================================================**
+![04  recetas_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/40a5f637-7016-4cad-84bc-977201f052f5)
+**==========================================================================**
+![04  recetas_2](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/455cd024-0c9f-44f5-ad09-96411837b0f9)
+**==========================================================================**
+![04  recetas_3](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/c495004f-a034-4b51-9d7e-60d9e5bc8648)
+**==========================================================================**
+![04  recetas_4](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/70387191-7f52-4a73-8798-44e4fa31b742)
+**==========================================================================**
+![04  recetas_5](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/3686e9ee-dc01-4205-8aa1-5a5d1d4f6b90)
+**==========================================================================**
+![04  recetas_6](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/8ba1d87b-cb4c-44f7-922d-6ed2e739a54c)
+**==========================================================================**
+![05  contacto_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/e143d2b0-8b61-4799-8de4-876b10e33f0f)
+**==========================================================================**
+![05  contacto_2](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/16146a1a-5f83-430d-9bf4-d694a2590e21)
+**==========================================================================**
+![05  contacto_3](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/818f0b3a-66b0-447e-9da4-5aaa1ecfb748)
+**==========================================================================**
+![05  contacto_4](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/ec071a3f-53e9-4b0d-a1c0-2a12af9918ac)
+**==========================================================================**
+![05  contacto_5](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/300be3c2-d642-47d7-85b0-06dab68b9107)
+**==========================================================================**
+![05  contacto_6](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/d1bb3e9a-7dcc-44c3-b94a-9a4b8668b9d1)
+**==========================================================================**
+![05  contacto_7](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/14c791d1-d234-45cd-83ea-7f40cfe339c4)
+**==========================================================================**
+![05  contacto_8](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/c73a12a7-ffca-42ae-bbbb-2d1e5e185641)
+**==========================================================================**
+![05  contacto_9](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/194383fa-48ad-4373-a525-57e7e003ca1b)
+**==========================================================================**
+![05  contacto_10](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/a4aadfda-92c2-471c-a708-143b733038a8)
+**==========================================================================**
