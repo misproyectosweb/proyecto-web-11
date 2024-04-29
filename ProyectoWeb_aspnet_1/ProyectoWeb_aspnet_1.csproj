@@ -110,6 +110,8 @@
     <Content Include="imagenes\imgCafe_7.png" />
     <Content Include="imagenes\imgPumpkinSpiceLatte.jpg" />
     <Content Include="imagenes\lineaDecorativa_1.png" />
+    <Content Include="imagenes\plantadecafe_1.png" />
+    <Content Include="imagenes\plantadecafe_2.png" />
     <Content Include="Inicio.aspx" />
     <Content Include="Recetas.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
