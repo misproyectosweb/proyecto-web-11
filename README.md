@@ -69,6 +69,8 @@ A continuación se presentan algunas imágenes del sitio web descrita anteriorme
 **==========================================================================**
 ![05  contacto_05](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/26990b3e-7351-44e5-b6ef-2ac0be20c163)
 **==========================================================================**
+![05  contacto_6](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/18fe9cca-6c83-4158-ab80-09cdfa83df30)
+**==========================================================================**
 ![05  contacto_07](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/c4ac0b01-32cd-42dd-86d5-ce04f3542c75)
 **==========================================================================**
 ![05  contacto_09](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/aaa06101-e0de-457f-ba6e-c3e4c011b48f)
