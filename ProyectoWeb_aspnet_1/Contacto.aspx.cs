@@ -79,7 +79,7 @@ namespace ProyectoWeb_aspnet_1
                 smtp.UseDefaultCredentials = false;
 
                 // Establecewmos el puerto donde se enviarán los correos
-                smtp.Port = 25;
+                smtp.Port = 587;
 
                 // Establece el servidor SMTP para enviar los mensajes
                 smtp.Host = "smtp.gmail.com";

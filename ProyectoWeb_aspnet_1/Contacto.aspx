@@ -16,9 +16,9 @@
         </div>
     </div>
 
-    <div class="row justify-content-center mx-auto pb-4">
+    <%--<div class="row justify-content-center mx-auto pb-4">
         <img src="imagenes/lineadecorativa_2.png" class="img-fluid w-75" alt="" />
-    </div>
+    </div>--%>
     
     <!-- Formulario de contacto -->
     <div class="container-fluid border-top border-dark-50">
