@@ -47,7 +47,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <asp:TextBox ID="txtCorreo" CssClass="form-control" runat="server" Width="550px" TextMode="Email"></asp:TextBox>
+                                        <asp:TextBox ID="txtCorreo" CssClass="form-control" runat="server" Width="550px" TextMode="Email" Placeholder="correo@correo.com"></asp:TextBox>
                                         <asp:RequiredFieldValidator ID="rfvCorreo" runat="server" ErrorMessage="El nombre de la cuenta de correo es requerido" ForeColor="#FF3300" ControlToValidate="txtCorreo" Font-Size="Small"></asp:RequiredFieldValidator>
                                         <asp:RegularExpressionValidator ID="revCorreo" runat="server" ErrorMessage="Ingresa un correo con el formato válido" ForeColor="#FF3300" ControlToValidate="txtCorreo" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" Font-Size="Small"></asp:RegularExpressionValidator>
                                     </td>
@@ -66,7 +66,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <asp:TextBox ID="txtTelCasa" CssClass="form-control" runat="server" Width="550px" TextMode="Phone"></asp:TextBox>
+                                        <asp:TextBox ID="txtTelCasa" CssClass="form-control" runat="server" Width="550px" TextMode="Phone" Placeholder="8888-8888"></asp:TextBox>
                                         <asp:RequiredFieldValidator ID="rfvTelCasa" runat="server" ErrorMessage="Completa este campo" ControlToValidate="txtTelCasa" ForeColor="#FF3300" Font-Size="Small"></asp:RequiredFieldValidator>
                                         <asp:RegularExpressionValidator ID="revTelCasa" runat="server" ErrorMessage="Ingresa un número con el formato válido" ForeColor="#FF3300" ControlToValidate="txtTelCasa" ValidationExpression="\d{3,4}-\d{3,4}" Font-Size="Small"></asp:RegularExpressionValidator>
                                     </td>
@@ -76,7 +76,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <asp:TextBox ID="txtTelCelular" CssClass="form-control" runat="server" Width="550px" TextMode="Phone"></asp:TextBox>
+                                        <asp:TextBox ID="txtTelCelular" CssClass="form-control" runat="server" Width="550px" TextMode="Phone" Placeholder="8888-8888"></asp:TextBox>
                                         <asp:RequiredFieldValidator ID="rfvTelCelular" runat="server" ErrorMessage="Completa este campo" ControlToValidate="txtTelCelular" ForeColor="#FF3300" Font-Size="Small"></asp:RequiredFieldValidator>
                                         <asp:RegularExpressionValidator ID="revTelCelular" runat="server" ErrorMessage="Ingresa un número con el formato válido" ForeColor="#FF3300" ControlToValidate="txtTelCasa" ValidationExpression="\d{3,4}-\d{3,4}" Font-Size="Small"></asp:RegularExpressionValidator>
                                     </td>
