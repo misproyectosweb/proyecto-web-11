@@ -62,15 +62,18 @@ A continuación se presentan algunas imágenes del sitio web descrita anteriorme
 **==========================================================================**
 ![04  recetas_4](https://github.com/user-attachments/assets/f67b68dc-a931-4251-9ae4-47880b359751)
 **==========================================================================**
-![05  contacto_1](https://github.com/user-attachments/assets/bebf398b-172c-49e7-a556-aa36336677e8)
+![05  contacto_1](https://github.com/user-attachments/assets/61f9b462-c187-43fc-bb32-7df1b9c633f5)
 **==========================================================================**
-![05  contacto_02](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/1327072f-7547-4e02-ac13-c3c863dfbe34)
+![05  contacto_2](https://github.com/user-attachments/assets/f58f324f-e432-43b6-be62-586243a13a69)
 **==========================================================================**
-![05  contacto_03](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/4bd7962a-42fd-4971-baeb-282ac8ec0ce1)
+![05  contacto_3](https://github.com/user-attachments/assets/4513087f-9cfb-4add-8bc4-0394a300f3d0)
 **==========================================================================**
-![05  contacto_6](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/18fe9cca-6c83-4158-ab80-09cdfa83df30)
+![05  contacto_4](https://github.com/user-attachments/assets/43e3f83f-65e1-4996-8192-3f0d4ab969d8)
 **==========================================================================**
-![05  contacto_07](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/c4ac0b01-32cd-42dd-86d5-ce04f3542c75)
+![05  contacto_5](https://github.com/user-attachments/assets/6ae7f23a-8d40-4823-b1fc-1cb4a8b949c2)
 **==========================================================================**
-![05  contacto_09](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/aaa06101-e0de-457f-ba6e-c3e4c011b48f)
+![05  contacto_6](https://github.com/user-attachments/assets/155873df-94d9-49f7-80fc-db69124f26ac)
 **==========================================================================**
+![05  contacto_7](https://github.com/user-attachments/assets/97120394-449e-4395-b82d-abc46b94d733)
+**==========================================================================**
+![05  contacto_8](https://github.com/user-attachments/assets/78d1593f-44b5-46b1-865c-bd6a104cf935)
