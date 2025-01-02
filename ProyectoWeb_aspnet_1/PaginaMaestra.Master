@@ -54,19 +54,19 @@
                 
                         <nav class="menu collapse navbar-collapse px-0" id="navbarNav">
                             <ul class="nav pt-2">
-                                <li class="nav-item rounded-pill" id="item_1" onmouseover="ResaltarOpcion('item_1', '#003958');" onmouseout="noResaltarOpcion('item_1', 'transparent');">
+                                <li class="nav-item rounded-pill" id="item_1" onmouseover="ResaltarOpcion('item_1', '#17a2b8');" onmouseout="noResaltarOpcion('item_1', 'transparent');">
                                     <a class="nav-link text-white" href="Inicio.aspx"><i class="bi bi-house-door mr-2"></i>Inicio</a>
                                 </li>
-                                <li class="nav-item rounded-pill" id="item_2" onmouseover="ResaltarOpcion('item_2', '#003958');" onmouseout="noResaltarOpcion('item_2', 'transparent');">
+                                <li class="nav-item rounded-pill" id="item_2" onmouseover="ResaltarOpcion('item_2', '#17a2b8');" onmouseout="noResaltarOpcion('item_2', 'transparent');">
                                     <a class="nav-link text-white" href="Historia.aspx"><i class="bi bi-vector-pen mr-2"></i>Historia</a>
                                 </li>
-                                <li class="nav-item rounded-pill" id="item_3" onmouseover="ResaltarOpcion('item_3', '#003958');" onmouseout="noResaltarOpcion('item_3', 'transparent');">
+                                <li class="nav-item rounded-pill" id="item_3" onmouseover="ResaltarOpcion('item_3', '#17a2b8');" onmouseout="noResaltarOpcion('item_3', 'transparent');">
                                     <a class="nav-link text-white" href="Galeria.aspx"><i class="bi bi-image mr-2"></i>Galería</a>
                                 </li>
-                                <li class="nav-item rounded-pill" id="item_4" onmouseover="ResaltarOpcion('item_4', '#003958');" onmouseout="noResaltarOpcion('item_4', 'transparent');">
+                                <li class="nav-item rounded-pill" id="item_4" onmouseover="ResaltarOpcion('item_4', '#17a2b8');" onmouseout="noResaltarOpcion('item_4', 'transparent');">
                                     <a class="nav-link text-white" href="Recetas.aspx"><i class="bi bi-receipt mr-2"></i>¿Cómo preparar...?</a>
                                 </li>
-                                <li class="nav-item rounded-pill" id="item_5" onmouseover="ResaltarOpcion('item_5', '#003958');" onmouseout="noResaltarOpcion('item_5', 'transparent');">
+                                <li class="nav-item rounded-pill" id="item_5" onmouseover="ResaltarOpcion('item_5', '#17a2b8');" onmouseout="noResaltarOpcion('item_5', 'transparent');">
                                     <a class="nav-link text-white" href="Contacto.aspx"><i class="bi bi-envelope mr-2"></i>Contáctenos</a>
                                 </li>
                             </ul>
