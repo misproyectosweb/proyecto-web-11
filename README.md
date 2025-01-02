@@ -31,15 +31,16 @@ Para el formulario de contacto se programaron validaciones utilizando las herram
 
 A continuación se presentan algunas imágenes del sitio web descrita anteriormente:
 
-![01  inicio_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/9384341c-ed18-4a1c-b9aa-aea27a4a62d8)
+
+![01  inicio_1](https://github.com/user-attachments/assets/35238784-e8e8-4d1f-92f2-de6f5774cadc)
 **==========================================================================**
-![01  inicio_2](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/8feb9521-b52e-472e-8e0d-e40c31ce322e)
+![01  inicio_2](https://github.com/user-attachments/assets/eec8ad68-d324-461c-a6e1-76a4cd0cc5fe)
 **==========================================================================**
 ![01  inicio_3](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/fef95bcc-ee60-4000-aa23-74bd1dea59cf)
 **==========================================================================**
 ![01  inicio_4](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/9f1d1cd6-a636-43a4-9b89-befff785db13)
 **==========================================================================**
-![02  historia_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/7a8f74bb-8893-41d9-b273-58cb0ee63882)
+![02  historia_1](https://github.com/user-attachments/assets/2bfa6238-59d7-4ec8-979f-d8423f3ce395)
 **==========================================================================**
 ![02  historia_2](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/a0ade3cf-dafe-4aa3-a9fe-e95997f95aca)
 **==========================================================================**
@@ -47,19 +48,21 @@ A continuación se presentan algunas imágenes del sitio web descrita anteriorme
 **==========================================================================**
 ![02  historia_4](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/97a97362-af16-4b74-98b0-31252bb26ede)
 **==========================================================================**
-![03  galeria_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/7efab0dc-8705-49f7-b80a-83b1bfaf5622)
+![03  galeria_1](https://github.com/user-attachments/assets/05c4be0f-1f17-4f8a-9642-7df67dd33fb7)
 **==========================================================================**
 ![03  galeria_2](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/8e7f637e-5c79-4529-8477-46ce664b7353)
 **==========================================================================**
 ![03  galeria_3](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/345fd238-7f3e-4ed6-bb7b-8dec687518c4)
 **==========================================================================**
-![04  recetas_1](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/6c8a9be0-d4c0-45f4-8a2b-d4e44a6153c5)
+![04  recetas_1](https://github.com/user-attachments/assets/6747e826-cda0-4826-9056-e415dd0fdcd6)
 **==========================================================================**
 ![04  recetas_2](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/f60dfbd0-1345-4fec-bf14-fd67eb775790)
 **==========================================================================**
 ![04  recetas_3](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/8eeac728-3ef7-4ff5-a980-91fe72c4a0b2)
 **==========================================================================**
-![05  contacto_01](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/2aeba8e2-7d72-4508-9a28-b86c5fca6360)
+![04  recetas_4](https://github.com/user-attachments/assets/f67b68dc-a931-4251-9ae4-47880b359751)
+**==========================================================================**
+![05  contacto_1](https://github.com/user-attachments/assets/bebf398b-172c-49e7-a556-aa36336677e8)
 **==========================================================================**
 ![05  contacto_02](https://github.com/misproyectosweb/proyecto-web-11/assets/98922137/1327072f-7547-4e02-ac13-c3c863dfbe34)
 **==========================================================================**
