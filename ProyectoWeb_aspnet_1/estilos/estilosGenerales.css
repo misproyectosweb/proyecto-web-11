@@ -1,24 +1,44 @@
 ﻿
 /* ********** Encabezado ********** */
-.imgEncabezado { font-family: 'Mooli', sans-serif; background-image: url('../imagenes/imgCafe_2.jpg'); background-size: cover; background-position: center; }
-.display-4 { font-size: 3.25em !important; }
-.w-25 { width: 15% !important; }
+
+.imgEncabezado { background-image: url('../imagenes/imgCafe_2.jpg'); background-size: cover; background-position: center; }
+.colorFondo { background-color: rgba(0, 0, 0, 0.4); }
+.w-100 { width: 90% !important; }        
+.p-4 { padding: 1.25em !important; }
 
 /* ********** Menú principal ********** */
-.menu { font-size: 1.5em; }
+.menu { display: flex; justify-content: center; }
+.menu ul { display: flex; flex-direction: row; }
+.menu ul li { font-size: 1.25em !important; margin: 0 1em; }
+.nav-link { padding: 0.5em 2em !important; }
 
 /* ********** Título y texto de sección ********** */
-.titulo { font-family: 'Mooli', sans-serif; }
-.py-5 { padding-top: 2.5em !important; padding-bottom: 2.5em !important; }
+.display-4 { font-family: 'Bree Serif', sans-serif; font-size: 3.5em; }
+.w-75 { width: 50% !important; }
 .textoSeccion { font-size: 1.25em; }
 
 /* ********** Pie de página ********** */
 .colorFooter { background-color: #003958; }
-footer a, footer ul li, .copyright { font-size: 0.85em !important; }
+footer a, footer ul li, .copyright { font-size: 1em !important; }
 footer h3 { font-size: 1.75em; }
 
 /* ********** Página Inicio ********** */
+h2 { font-size: 2em; }
 .imgFondoInicio { background-image: url('../imagenes/imgCafe_1.jpg'); background-size: cover; background-position: center; }
+.colorFondoInicio { background: rgba(0,0,0,0.3); min-height: 85vh;  }
+.vh-100 { height: 100vh !important; }
+.citaInicio { font-family: 'Satisfy', cursive; font-size: 2.25em; }
+.pl-3 { padding-left: 1em !important; }
+.blockquote-footer { font-family: 'Satisfy', cursive; font-size: 1.25em; }
+h5 { font-size: 1.25em; }
+p { font-size: 1em; }
+.py-5 { padding-top: 2.5em !important; padding-bottom: 2.5em !important; }
+.pt-5 { padding-top: 2.5em !important; }
+.mr-5 { margin-right: 2.5em !important; }
+.mb-5 { margin-bottom: 2.5em !important; }
+.px-5 { padding-left: 2.5em !important; padding-right: 2.5em !important; }
+
+/*.imgFondoInicio { background-image: url('../imagenes/imgCafe_1.jpg'); background-size: cover; background-position: center; }
 .colorFondoInicio { background: rgba(0,0,0,0.3); min-height: 100vh; }
 h2 { font-size: 2em; }
 .citaInicio { font-family: 'Satisfy', cursive; font-size: 3em; }
@@ -29,307 +49,551 @@ p { font-size: 1em; }
 .mr-5 { margin-right: 2.5em !important; }
 .mb-5 { margin-bottom: 2.5em !important; }
 .px-5 { padding-left: 2.5em !important; padding-right: 2.5em !important; }
+*/
+
 
 /* ********** Página Historia ********** */
+.py-5 { padding-top: 2.5em !important; padding-bottom: 2.5em !important; }
 .imgFondoHistoriaUno { background-image: url('../imagenes/plantadecafe_2.png'); background-repeat: no-repeat; background-position: right top; }
 .imgFondoHistoriaDos { background-image: url('../imagenes/plantadecafe_1.png'); background-repeat: no-repeat; background-position: left center; }
-.colorFondoHistoria { background: rgba(255 ,255 ,255 ,0.8); }
+.colorFondoTextos { background: rgba(255 ,255 ,255 ,0.7); }
 h3 { font-size: 1.75em; }
 p { font-size: 1em; }
 h6 { font-size: 1em; }
 .btn-lg { font-size: 1.25em !important; }
 .my-5 { margin-top: 2.5em !important; margin-bottom: 2.5em !important; }
+.w-50 { width: 25% !important; }
 
 /* ********** Página Galería ********** */
-.datosFotos { font-size: 1em; }
-.mb-3 { margin-bottom: 1em !important; }
+.py-5 { padding-top: 2.5em !important; padding-bottom: 2.5em !important; }
+.imgFondoHistoriaUno { background-image: url('../imagenes/plantadecafe_2.png'); background-repeat: no-repeat; background-position: right top; }
+.imgFondoHistoriaDos { background-image: url('../imagenes/plantadecafe_1.png'); background-repeat: no-repeat; background-position: left center; }
+.colorFondoTextos { background: rgba(255 ,255 ,255 ,0.7); }
+h3 { font-size: 1.75em; }
+p { font-size: 1em; }
+h6 { font-size: 1em; }
+.btn-lg { font-size: 1.25em !important; }
+.my-5 { margin-top: 2.5em !important; margin-bottom: 2.5em !important; }
+.w-50 { width: 25% !important; }
 
 /* ********** Página Recetas ********** */
+.py-5 { padding-top: 2.5em !important; padding-bottom: 2.5em !important; }
 .card { max-width: 48.5% !important; }
 .card-body { padding: 1em !important; }
-.card-title { margin-bottom: 1em !important; }
+.card-title { margin-bottom: 0.5em !important; }
 .card-text { font-size: 1em !important; }
 .iconoPDF { font-size: 1.5em; }
 
 /* ********** Página Contacto ********** */
-.pb-5 { padding-bottom: 2.75em !important; }
-.p-4 { padding: 1.5em !important; }
-main label { font-size: 1em; }
-.form-control { font-size: 0.9em !important; }
-main .btn { font-size: 1em !important; }
-.vh-100 { height: 60vh !important; }
+h2 { font-size: 2em; }
+.py-5 { padding-top: 2.5em !important; padding-bottom: 2.5em !important; }
+.vh-100 { height: 70vh !important; }
 .imgFondoContacto { background-image: url('../imagenes/imgCafe_3.jpg'); background-size: cover; background-position: center; border: 0.5em solid #003958; border-radius: 0.75em; }
-.colorFondoContacto { background: rgba(0,0,0,0.3); }
-.citaContacto { font-family: 'Satisfy', cursive; font-size: 3em; }
+.colorFondo { background: rgba(0,0,0,0.4); }
+.citaContacto { font-family: 'Satisfy', cursive; font-size: 2.5em; }
+.blockquote-footer { font-family: 'Satisfy', cursive; font-size: 1.75em !important; }
+
 
 /* ******************** Media queries ******************** */
 
 @media screen and (min-width: 1424px) and (max-width: 1647.98px) {
 
     /* ********** Encabezado ********** */
-    .display-4 { font-size: 3em !important; }
-    .w-25 { width: 10% !important; }
+    .w-100 { width: 80% !important; }        
+    .p-4 { padding: 1.25em !important; }
     
     /* ********** Menú principal ********** */
-    .menu { font-size: 1.25em; }
+    .menu { display: flex; justify-content: center; }
+    .menu ul { display: flex; flex-direction: row; }
+    .menu ul li { font-size: 1.25em !important; margin: 0 0.85em; }
+    .nav-link { padding: 0.5em 1.5em !important; }  
+    .menu .nav .nav-item .nav-link:hover { color: #fff !important; }
     
     /* ********** Título y texto de sección ********** */
-    .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; }
-    .textoSeccion { font-size: 1.15em; }
+    .display-4 { font-size: 3em !important; }
+    .w-75 { width: 50% !important; }
+    .textoSeccion { font-size: 1.25em; }
     
     /* ********** Pie de página ********** */
-    footer a, footer ul li, .copyright { font-size: 0.85em !important; }
-    footer h3 { font-size: 1.5em; }
+    footer a, footer ul li, .copyright { font-size: 0.8em !important; }
+    footer h3 { font-size: 1.75em; }
 
     /* ********** Página Inicio ********** */
-    h2 { font-size: 1.75em; }
-    .citaInicio { font-size: 2.75em; }
-    .blockquote-footer { font-size: 1.75em; }
+    h2 { font-size: 1.75em; }    
+    .citaInicio { font-size: 2em; }
+    .colorFondoInicio { background: rgba(0,0,0,0.3); min-height: 75vh; }
+    .pl-3 { padding-left: 1em !important; }
+    .blockquote-footer { font-size: 1.25em; }                
+
+    .vh-100 { height: 100vh !important; }
     h5 { font-size: 1.25em; }
     p { font-size: 1em; }
+    .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; }
     .pt-5 { padding-top: 2.25em !important; }
     .mr-5 { margin-right: 2.25em !important; }
     .mb-5 { margin-bottom: 2.25em !important; }
     .px-5 { padding-left: 2.25em !important; padding-right: 2.25em !important; }
 
-    /* ********** Página Historia ********** */
+    /* ********** Página Historia ********** */    
+    .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; }        
     h3 { font-size: 1.75em; }
     p { font-size: 1em; }
     h6 { font-size: 1em; }
     .btn-lg { font-size: 1.25em !important; }   
-    .my-5 { margin-top: 2em !important; margin-bottom: 2em !important; } 
+    .my-5 { margin-top: 2em !important; margin-bottom: 2em !important; }
+    .w-50 { width: 30% !important; }
 
-    /* ********** Página Galería ********** */
-    .datosFotos { font-size: 0.85em; }    
-    .mb-3 { margin-bottom: 1em !important; }    
-    .ml-5 { margin-left: 0 !important; }
-    .pl-3 { padding-left: 0 !important; }
+    /* ********** Página Galería ********** */    
+    .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; }        
+    h3 { font-size: 1.75em; }
+    p { font-size: 1em; }
+    h6 { font-size: 1em; }
+    .btn-lg { font-size: 1.25em !important; }   
+    .my-5 { margin-top: 2em !important; margin-bottom: 2em !important; }
+    .w-50 { width: 30% !important; }
 
-    /* ********** Página Recetas ********** */
+    /* ********** Página Recetas ********** */    
+    .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; }        
     .card { max-width: 48.5% !important; }
     .card-body { padding: 1em !important; }
-    .card-title { margin-bottom: 1em !important; }
+    .card-title { margin-bottom: 0.5em !important; }
     .card-text { font-size: 0.85em !important; }    
     .iconoPDF { font-size: 1.5em; }
 
-    /* ********** Página Contacto ********** */   
-    .pb-5 { padding-bottom: 2.5em !important; }
-    .p-4 { padding: 1.25em !important; }
-    main label { font-size: 0.95em; }
-    .form-control { font-size: 0.9em !important; }
-    main .btn { font-size: 1em !important; }
-    .vh-100 { height: 55vh !important; }
-    .citaContacto { font-size: 3em !important; }
+    /* ********** Página Contacto ********** */
+    h2 { font-size: 1.75em; }
+    .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; }
+    .vh-100 { height: 70vh !important; }
+    .citaContacto { font-size: 2.25em !important; }
+    .blockquote-footer { font-size: 1.5em !important; }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1423.98px) {
 
     /* ********** Encabezado ********** */
-    .display-4 { font-size: 2.75em !important; }
-    .w-25 { width: 10% !important; }
+    .w-100 { width: 70% !important; }        
+    .p-4 { padding: 1em !important; }
     
     /* ********** Menú principal ********** */
-    .menu { font-size: 1.25em; }
+    .menu { display: flex; justify-content: center; }
+    .menu ul { display: flex; flex-direction: row; }
+    .menu ul li { font-size: 1em !important; margin: 0 0.85em; }
+    .nav-link { padding: 1em !important; } 
+    .menu .nav .nav-item .nav-link:hover { color: #fff !important; }
     
     /* ********** Título y texto de sección ********** */
-    .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }
+    .display-4 { font-size: 2.75em !important; }
+    .w-75 { width: 60% !important; }
     .textoSeccion { font-size: 1em; }
     
     /* ********** Pie de página ********** */
-    footer a, footer ul li, .copyright { font-size: 0.85em !important; }
-    footer h3 { font-size: 1.5em; }
+    footer a, footer ul li, .copyright { font-size: 0.8em !important; }
+    footer h3 { font-size: 1.5em; }       
 
     /* ********** Página Inicio ********** */
     h2 { font-size: 1.5em; }
-    .citaInicio { font-size: 2.5em; }
-    .blockquote-footer { font-size: 1.5em; }
+    .citaInicio { font-size: 1.75em; }
+    .colorFondoInicio { background: rgba(0,0,0,0.3); min-height: 65vh; }
+    .pl-3 { padding-left: 1em !important; }
+    .blockquote-footer { font-size: 1.25em; }                
+    .vh-100 { height: 90vh !important; }
     h5 { font-size: 1.25em; }
     p { font-size: 1em; }
+    .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }
     .pt-5 { padding-top: 2em !important; }
     .mr-5 { margin-right: 2em !important; }
     .mb-5 { margin-bottom: 2em !important; }
     .px-5 { padding-left: 2em !important; padding-right: 2em !important; }
 
-    /* ********** Página Historia ********** */
+    /* ********** Página Historia ********** */    
+    .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }        
     h3 { font-size: 1.5em; }
     p { font-size: 1em; }
     h6 { font-size: 1em; }
     .btn-lg { font-size: 1em !important; }    
     .my-5 { margin-top: 1.75em !important; margin-bottom: 1.75em !important; } 
+    .w-50 { width: 30% !important; }
 
-    /* ********** Página Galería ********** */
-    .datosFotos { font-size: 0.8em; }
-    .mb-3 { margin-bottom: 1em !important; }    
-    .ml-5 { margin-left: 0 !important; }
-    .pl-3 { padding-left: 0 !important; }
-    
-    /* ********** Página Recetas ********** */
-    .card { max-width: 60% !important; }
+    /* ********** Página Galería ********** */   
+    .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }        
+    h3 { font-size: 1.5em; }
+    p { font-size: 1em; }
+    h6 { font-size: 1em; }
+    .btn-lg { font-size: 1em !important; }    
+    .my-5 { margin-top: 1.75em !important; margin-bottom: 1.75em !important; } 
+    .w-50 { width: 30% !important; }
+
+    /* ********** Página Recetas ********** */    
+    .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }       
+    .card { max-width: 48.5% !important; }
     .card-body { padding: 1em !important; }
-    .card-title { margin-bottom: 1em !important; }
-    .card-text { font-size: 0.85em !important; }    
+    .card-title { margin-bottom: 0.5em !important; }
+    .card-text { font-size: 0.75em !important; }    
     .iconoPDF { font-size: 1.5em; }
 
-    /* ********** Página Contacto ********** */    
-    .pb-5 { padding-bottom: 2em !important; }
-    .p-4 { padding: 1.25em !important; }
-    main label { font-size: 0.9em; }
-    .form-control { font-size: 0.85em !important; }
-    main .btn { font-size: 1em !important; }
-    .vh-100 { height: 55vh !important; }
-    .citaContacto { font-size: 3em !important; }    
+    /* ********** Página Contacto ********** */
+    h2 { font-size: 1.5em; }
+    .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }
+    .vh-100 { height: 60vh !important; }
+    .citaContacto { font-size: 2em !important; }
+    .blockquote-footer { font-size: 1.25em !important; }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
 
     /* ********** Encabezado ********** */
-    .display-4 { font-size: 2.5em !important; }
-    .w-25 { width: 10% !important; }
+    .w-100 { width: 60% !important; }        
+    .p-4 { padding: 1em !important; }
     
     /* ********** Menú principal ********** */
-    .menu { font-size: 1em; }
+    .menu { display: flex; justify-content: center; }
+    .menu ul { display: flex; flex-direction: row; }
+    .menu ul li { font-size: 1em !important; margin: 0 0.45em; }
+    .nav-link { padding: 1em !important; }
+    .menu .nav .nav-item .nav-link:hover { color: #fff !important; }
     
     /* ********** Título y texto de sección ********** */
-    .py-5 { padding-top: 1.75em !important; padding-bottom: 1.75em !important; }
+    .display-4 { font-size: 2.5em !important; }
+    .w-75 { width: 60% !important; }
     .textoSeccion { font-size: 1em; }
     
     /* ********** Pie de página ********** */
-    footer a, footer ul li, .copyright { font-size: 0.75em !important; }
-    footer h3 { font-size: 1.25em; }
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }
+    footer h3 { font-size: 1.5em; }       
 
     /* ********** Página Inicio ********** */
-    h2 { font-size: 1.5em; }
-    .citaInicio { font-size: 2.25em; }
-    .blockquote-footer { font-size: 1.5em; }
+    h2 { font-size: 1.5em; }        
+    .citaInicio { font-size: 1.5em; }
+    .colorFondoInicio { background: rgba(0,0,0,0.3); min-height: 60vh; }
+    .pl-3 { padding-left: 1em !important; }
+    .blockquote-footer { font-size: 1em; }            
+    .vh-100 { height: 80vh !important; }
     h5 { font-size: 1.25em; }
     p { font-size: 1em; }
+    .py-5 { padding-top: 1.75em !important; padding-bottom: 1.75em !important; }
     .pt-5 { padding-top: 1.75em !important; }
     .mr-5 { margin-right: 1.75em !important; }
     .mb-5 { margin-bottom: 1.75em !important; }
     .px-5 { padding-left: 1.75em !important; padding-right: 1.75em !important; }
 
-    /* ********** Página Historia ********** */
+    /* ********** Página Historia ********** */    
+    .py-5 { padding-top: 1.75em !important; padding-bottom: 1.75em !important; }        
     h3 { font-size: 1.25em; }
-    p { font-size: 0.9em; }
-    h6 { font-size: 1em; }
+    p { font-size: 1em; }
+    h6 { font-size: 0.75em; }
     .btn-lg { font-size: 1em !important; }    
-    .my-5 { margin-top: 1.5em !important; margin-bottom: 1.5em !important; } 
+    .my-5 { margin-top: 1.5em !important; margin-bottom: 1.5em !important; }
+    .w-50 { width: 30% !important; }
 
-    /* ********** Página Galería ********** */
-    .datosFotos { font-size: 1em; }    
-    .mb-3 { margin-bottom: 0.75em !important; }    
-    .ml-5 { margin-left: 0 !important; }
-    .pl-3 { padding-left: 0 !important; }
-    
-    /* ********** Página Recetas ********** */
-    .card { max-width: 70% !important; }
+    /* ********** Página Galería ********** */    
+    .py-5 { padding-top: 1.75em !important; padding-bottom: 1.75em !important; }        
+    h3 { font-size: 1.25em; }
+    p { font-size: 1em; }
+    h6 { font-size: 0.75em; }
+    .btn-lg { font-size: 1em !important; }    
+    .my-5 { margin-top: 1.5em !important; margin-bottom: 1.5em !important; }
+    .w-50 { width: 30% !important; }
+
+    /* ********** Página Recetas ********** */    
+    .py-5 { padding-top: 1.75em !important; padding-bottom: 1.75em !important; }        
+    .card { max-width: 48.5% !important; }
     .card-body { padding: 1em !important; }
-    .card-title { margin-bottom: 1em !important; }
-    .card-text { font-size: 0.85em !important; }    
+    .card-title { margin-bottom: 0.5em !important; }
+    .card-text { font-size: 0.75em !important; }    
     .iconoPDF { font-size: 1.5em; }
 
-    /* ********** Página Contacto ********** */    
-    .pb-5 { padding-bottom: 1.75em !important; }
-    .p-4 { padding: 1em !important; }
-    main label { font-size: 1em; }
-    .form-control { font-size: 0.85em !important; }
-    main .btn { font-size: 1em !important; }        
-    .vh-100 { height: 55vh !important; }
-    .citaContacto { font-size: 3.5em !important; }    
+    /* ********** Página Contacto ********** */
+    h2 { font-size: 1.5em; }
+    .py-5 { padding-top: 1.75em !important; padding-bottom: 1.75em !important; }
+    .vh-100 { height: 60vh !important; }
+    .citaContacto { font-size: 2em !important; }    
+    .blockquote-footer { font-size: 1.25em !important; }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
     
     /* ********** Encabezado ********** */
-    .display-4 { font-size: 2.25em !important; }
-    .w-25 { width: 10% !important; }
+    .w-100 { width: 60% !important; }        
+    .btnMenu i { font-size: 1.75em; }
+    .p-4 { padding: 0.75em !important; }
     
     /* ********** Menú principal ********** */
-    .menu { font-size: 1em; }
-    .nav-link { padding: 0 !important; }
+    .menu { display: flex; justify-content: center; border-top: 1px solid #fff; }
+    .menu ul { display: flex; flex-direction: row; }
+    .menu ul li { font-size: 1em !important; }
+    .nav-link { padding: 1em !important; }
+    .menu .nav .nav-item .nav-link:hover { color: #fff !important; }
     
     /* ********** Título y texto de sección ********** */
-    .py-5 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
-    .textoSeccion { font-size: 1em; }
+    .display-4 { font-size: 2.25em !important; }
+    .w-75 { width: 60% !important; }
+    .textoSeccion { font-size: 0.85em; }
     
     /* ********** Pie de página ********** */
-    footer a, footer ul li, .copyright { font-size: 0.65em !important; }
-    footer h3 { font-size: 1.25em; }
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }
+    footer h3 { font-size: 1.5em; }
+    .col-3, .col-4 { padding-left: 5px; padding-right: 5px; }
 
     /* ********** Página Inicio ********** */
-    h2 { font-size: 1.5em; }
-    .colorFondoInicio { min-height: 60vh; }
-    .citaInicio { font-size: 2em; }
-    .blockquote-footer { font-size: 1.25em; }
+    h2 { font-size: 1.25em; }
+    .citaInicio { font-size: 1.5em; }
+    .colorFondoInicio { background: rgba(0,0,0,0.3); min-height: 50vh; }
+    .pl-3 { padding-left: 0.75em !important; }
+    .blockquote-footer { font-size: 1em; }            
+    .vh-100 { height: 70vh !important; }
     h5 { font-size: 1em; }
-    .mb-5 { margin-bottom: 1.5em !important; }
+    p { font-size: 0.75em; }
+    .py-5 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
     .pt-5 { padding-top: 1.5em !important; }
-    .mr-5 { margin-right: 1.5em !important; }    
+    .mr-5 { margin-right: 1.5em !important; }
+    .mb-5 { margin-bottom: 1.5em !important; }
     .px-5 { padding-left: 1.5em !important; padding-right: 1.5em !important; }
         
-    /* ********** Página Historia ********** */
+    /* ********** Página Historia ********** */    
+    .py-5 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }        
     h3 { font-size: 1.25em; }
-    p { font-size: 0.9em; }
-    h6 { font-size: 1em; }
+    p { font-size: 0.75em; }
+    h6 { font-size: 0.75em; }
     .btn-lg { font-size: 0.75em !important; }    
-    .my-5 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }   
+    .my-5 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }
+    .w-50 { width: 40% !important; }
 
-    /* ********** Página Galería ********** */
-    .datosFotos { font-size: 1em; }    
-    .mb-3 { margin-bottom: 0.75em !important; }    
+    /* ********** Página Galería ********** */    
+    .py-5 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }        
+    h3 { font-size: 1.25em; }
+    p { font-size: 0.75em; }
+    h6 { font-size: 0.75em; }
+    .btn-lg { font-size: 0.75em !important; }    
+    .my-5 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }
+    .w-50 { width: 40% !important; }
 
-    /* ********** Página Recetas ********** */
+    /* ********** Página Recetas ********** */    
+    .py-5 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }        
     .card { max-width: 90% !important; }
-    .card-title { margin-bottom: 1em !important; }
-    .card-text { font-size: 0.85em !important; }
+    .card-title { margin-bottom: 0.5em !important; }
+    .card-text { font-size: 0.75em !important; }
     .iconoPDF { font-size: 1.5em; }
 
-    /* ********** Página Contacto ********** */    
-    .pb-5 { padding-bottom: 1.5em !important; }
-    .p-4 { padding: 1em !important; }
-    main label { font-size: 1em; }
-    .form-control { font-size: 0.85em !important; }
-    main .btn { font-size: 1em !important; }    
-    .vh-100 { height: 47vh !important; }
-    .citaContacto { font-size: 3.5em !important; }    
+    /* ********** Página Contacto ********** */
+    h2 { font-size: 1.25em; }
+    .py-5 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+    .vh-100 { height: 50vh !important; }
+    .citaContacto { font-size: 2em !important; }    
+    .blockquote-footer { font-size: 1.25em !important; }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
     
     /* ********** Encabezado ********** */
-    .display-4 { font-size: 2em !important; }
-    .w-25 { width: 10% !important; }
+    .w-100 { width: 50% !important; }        
+    .btnMenu i { font-size: 1.75em; }
+    .p-4 { padding: 0.75em !important; }
     
     /* ********** Menú principal ********** */
-    .menu { font-size: 0.75em; }
-    .nav-link { padding: 0 !important; }
+    .menu { display: flex; justify-content: flex-start; border-top: 1px solid #fff; }
+    .menu ul { display: flex; flex-direction: column; }
+    .menu ul li { font-size: 0.75em !important; }
+    .nav-link { padding: 0.75em !important; }
+    .menu .nav .nav-item .nav-link:hover { color: #fff !important; }
     
     /* ********** Título y texto de sección ********** */
-    .py-5 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+    .display-4 { font-size: 2em !important; }
+    .w-75 { width: 70% !important; }
     .textoSeccion { font-size: 0.85em; }
     
     /* ********** Pie de página ********** */
-    footer a, footer ul li, .copyright { font-size: 0.55em !important; }
-    footer h3 { font-size: 1.25em; }        
-}
-
-@media screen and (max-width: 575.98px) {
-    
-    /* ********** Encabezado ********** */
-    .display-4 { font-size: 1.75em !important; }
-    .w-25 { width: 10% !important; }
-    
-    /* ********** Menú principal ********** */
-    .menu { font-size: 0.65em; }
-    .nav-link { padding: 0 !important; }
-    
-    /* ********** Título y texto de sección ********** */
-    .py-5 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
-    .textoSeccion { font-size: 0.75em; }
-    
-    /* ********** Pie de página ********** */
-    footer a, footer ul li, .copyright { font-size: 0.55em !important; }
+    footer a, footer ul li, .copyright { font-size: 0.6em !important; }
     footer h3 { font-size: 1.25em; }
+    .col-3, .col-4 { padding-left: 5px; padding-right: 5px; }
+
+    /* ********** Página Inicio ********** */
+    h2 { font-size: 1.25em; }        
+    .citaInicio { font-size: 1.25em; }
+    .colorFondoInicio { background: rgba(0,0,0,0.3); min-height: 50vh; }
+    .pl-3 { padding-left: 0.75em !important; }
+    .blockquote-footer { font-size: 0.75em; }
+    .vh-100 { height: 60vh !important; }        
+    h5 { font-size: 1em; }
+    p { font-size: 0.75em; }
+    .py-5 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
+    .pt-5 { padding-top: 1.25em !important; }
+    .mr-5 { margin-right: 1.25em !important; }
+    .mb-5 { margin-bottom: 1.25em !important; }
+    .px-5 { padding-left: 1.25em !important; padding-right: 1.25em !important; }
+
+    /* ********** Página Historia ********** */    
+    .py-5 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }        
+    h3 { font-size: 1em; }
+    p { font-size: 0.75em; }
+    h6 { font-size: 0.75em; }
+    .btn-lg { font-size: 0.75em !important; }    
+    .my-5 { margin-top: 1em !important; margin-bottom: 1em !important; }
+    .w-50 { width: 40% !important; }
+
+    /* ********** Página Galería ********** */    
+    .py-5 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }        
+    h3 { font-size: 1em; }
+    p { font-size: 0.75em; }
+    h6 { font-size: 0.75em; }
+    .btn-lg { font-size: 0.75em !important; }    
+    .my-5 { margin-top: 1em !important; margin-bottom: 1em !important; }
+    .w-50 { width: 40% !important; }
+
+    /* ********** Página Recetas ********** */    
+    .py-5 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }        
+    .card { max-width: 90% !important; }
+    .card-title { margin-bottom: 0.5em !important; }
+    .card-text { font-size: 0.75em !important; }
+    .iconoPDF { font-size: 1.5em; }
+
+    /* ********** Página Contacto ********** */
+    h2 { font-size: 1.25em; }
+    .py-5 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
+    .vh-100 { height: 50vh !important; }    
+    .citaContacto { font-size: 1.75em !important; }    
+    .blockquote-footer { font-size: 1em !important; }
 }
 
-/* ********************************************************************************************* */
+@media screen and (min-width: 481px) and (max-width: 575.98px) {
+
+    /* ********** Encabezado ********** */
+    .w-100 { width: 40% !important; }        
+    .btnMenu i { font-size: 1.5em; }
+    .p-4 { padding: 0.5em !important; }
+
+    /* ********** Menú principal ********** */
+    .menu { display: flex; justify-content: flex-start; border-top: 1px solid #fff; }
+    .menu ul { display: flex; flex-direction: column; }
+    .menu ul li { font-size: 0.75em !important; }
+    .nav-link { padding: 0.75em !important; }
+    .menu .nav .nav-item .nav-link:hover { color: #fff !important; }
+
+    /* ********** Título y texto de sección ********** */
+    .display-4 { font-size: 1.75em !important; }
+    .w-75 { width: 70% !important; }
+    .textoSeccion { font-size: 0.75em; }
+
+    /* ********** Pie de página ********** */
+    footer a, footer ul li, .copyright { font-size: 0.6em !important; }
+    footer h3 { font-size: 1.25em; } 
+    .col-3, .col-4 { padding-left: 5px; padding-right: 5px; }
+
+    /* ********** Página Inicio ********** */
+    h2 { font-size: 1em; }    
+    .citaInicio { font-size: 1em; }
+    .colorFondoInicio { background: rgba(0,0,0,0.3); min-height: 40vh; }
+    .pl-3 { padding-left: 0.5em !important; }
+    .blockquote-footer { font-size: 0.75em; }
+    .vh-100 { height: 50vh !important; }        
+    h5 { font-size: 1em; }
+    p { font-size: 0.75em; }
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }
+    .pt-5 { padding-top: 1em !important; }
+    .mr-5 { margin-right: 1em !important; }
+    .mb-5 { margin-bottom: 1em !important; }
+    .px-5 { padding-left: 1em !important; padding-right: 1em !important; }
+
+    /* ********** Página Historia ********** */
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }       
+    h3 { font-size: 1em; }
+    p { font-size: 0.75em; }
+    h6 { font-size: 0.75em; }
+    .btn-lg { font-size: 0.75em !important; }    
+    .my-5 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }
+    .w-50 { width: 50% !important; }
+
+    /* ********** Página Galería ********** */
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }        
+    h3 { font-size: 1em; }
+    p { font-size: 0.75em; }
+    h6 { font-size: 0.75em; }
+    .btn-lg { font-size: 0.75em !important; }    
+    .my-5 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }
+    .w-50 { width: 50% !important; }
+
+    /* ********** Página Recetas ********** */
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }       
+    .card { max-width: 90% !important; }    
+    .card-title { margin-bottom: 0.5em !important; }
+    .card-text { font-size: 0.75em !important; }
+    .iconoPDF { font-size: 1.5em; }
+
+    /* ********** Página Contacto ********** */    
+    h2 { font-size: 1em; }
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }
+    .vh-100 { height: 40vh !important; }
+    .citaContacto { font-size: 1.75em !important; }    
+    .blockquote-footer { font-size: 1em !important; }
+}
+
+@media screen and (max-width: 480.98px) {
+
+    /* ********** Encabezado ********** */   
+    .w-100 { width: 30% !important; }        
+    .btnMenu i { font-size: 1.5em; }
+    .p-4 { padding: 0.5em !important; }
+
+    /* ********** Menú principal ********** */
+    .menu { display: flex; justify-content: flex-start; border-top: 1px solid #fff; }
+    .menu ul { display: flex; flex-direction: column; }
+    .menu ul li { font-size: 0.75em !important; }
+    .nav-link { padding: 0.75em !important; }
+    .menu .nav .nav-item .nav-link:hover { color: #fff !important; }
+
+    /* ********** Título y texto de sección ********** */
+   .display-4 { font-size: 1.5em !important; }
+   .w-75 { width: 70% !important; }
+   .textoSeccion { font-size: 0.75em; }
+
+    /* ********** Pie de página ********** */
+    footer a, footer ul li, .copyright { font-size: 0.5em !important; }
+    footer h3 { font-size: 1.25em; }
+    .col-3, .col-4 { padding-left: 5px; padding-right: 5px; }
+
+    /* ********** Página Inicio ********** */    
+    h2 { font-size: 1em; }   
+    .citaInicio { font-size: 1em; }
+    .colorFondoInicio { background: rgba(0,0,0,0.3); min-height: 25vh; }
+    .pl-3 { padding-left: 0.5em !important; }
+    .blockquote-footer { font-size: 0.75em; }
+    .vh-100 { height: 40vh !important; }        
+    h5 { font-size: 1em; }
+    p { font-size: 0.75em; }
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }
+    .pt-5 { padding-top: 1em !important; }
+    .mr-5 { margin-right: 1em !important; }
+    .mb-5 { margin-bottom: 1em !important; }
+    .px-5 { padding-left: 1em !important; padding-right: 1em !important; }
+
+    /* ********** Página Historia ********** */
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }        
+    h3 { font-size: 1em; }
+    p { font-size: 0.75em; }
+    h6 { font-size: 0.75em; }
+    .btn-lg { font-size: 0.75em !important; }    
+    .my-5 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }
+    .w-50 { width: 50% !important; }
+
+    /* ********** Página Galería ********** */
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }        
+    h3 { font-size: 1em; }
+    p { font-size: 0.75em; }
+    h6 { font-size: 0.75em; }
+    .btn-lg { font-size: 0.75em !important; }    
+    .my-5 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }
+    .w-50 { width: 50% !important; }
+
+    /* ********** Página Recetas ********** */
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }       
+    .card { max-width: 90% !important; }    
+    .card-title { margin-bottom: 0.5em !important; }
+    .card-text { font-size: 0.75em !important; }
+    .iconoPDF { font-size: 1.5em; }
+
+    /* ********** Página Contacto ********** */    
+    h2 { font-size: 1em; }
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }    
+    .vh-100 { height: 40vh !important; }
+    .citaContacto { font-size: 1.7em !important; }    
+    .blockquote-footer { font-size: 1em !important; }
+}

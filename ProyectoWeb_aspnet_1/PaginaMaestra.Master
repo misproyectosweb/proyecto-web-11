@@ -2,17 +2,24 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
     <head runat="server">
         <title>Un buen café para el alma</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <asp:ContentPlaceHolder ID="head" runat="server">
         </asp:ContentPlaceHolder>
 
+        <%-- Google Fonts --%>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Mooli&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
         <%-- Boostrap --%>
-        <link href="Content/bootstrap.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+        <link href="Content/bootstrap.min.css" rel="stylesheet" />        
 
         <%-- JavaScript --%>
         <script src="Scripts/jquery-3.0.0.min.js"></script>
@@ -21,47 +28,51 @@
 
         <%-- Iconos --%>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
-
-        <%-- Google Fonts --%>
-        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Mooli&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+                
         <%-- Archivos estilos css --%>
         <link href="estilos/estilosGenerales.css" rel="stylesheet"/>
 
         <%-- Otros archivos --%>
-        <link rel="shortcut icon" type="image/x-icon" href="imagenes/dbjBebida_7.png"/>                                                           
+        <link rel="shortcut icon" type="image/x-icon" href="imagenes/dbjBebida_3.png"/>
     </head>
         
     <body>
         <header class="imgEncabezado">
-            <div class="container-fluid">
+            <div class="container-fluid colorFondo">
                 <div class="row justify-content-center">
-                    <div class="d-flex justify-content-center align-items-center my-4">
-                        <img src="imagenes/dbjBebida_2.png" class="img-fluid w-25" alt="" />
-                        <h1 class="mb-0 text-white display-4 font-weight-bold">Un buen café para el alma</h1>
-                        <img src="imagenes/dbjBebida_2.png" class="img-fluid w-25" alt="" />
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 navbar navbar-expand-lg navbar-light p-4">
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 px-0">                            
+                            <a class="navbar-brand pt-0" href="#">
+                                <img src="imagenes/logoblanco.png" class="imgLogo img-fluid w-100" alt="Logo de la empresa"/>
+                            </a>
+                        </div>
+                                        
+                        <button id="btnMenu" class="btnMenu navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="btn bi bi-list text-white"></i></span>
+                        </button>
+                
+                        <nav class="menu collapse navbar-collapse px-0" id="navbarNav">
+                            <ul class="nav pt-2">
+                                <li class="nav-item rounded-pill" id="item_1" onmouseover="ResaltarOpcion('item_1', '#003958');" onmouseout="noResaltarOpcion('item_1', 'transparent');">
+                                    <a class="nav-link text-white" href="Inicio.aspx"><i class="bi bi-house-door mr-2"></i>Inicio</a>
+                                </li>
+                                <li class="nav-item rounded-pill" id="item_2" onmouseover="ResaltarOpcion('item_2', '#003958');" onmouseout="noResaltarOpcion('item_2', 'transparent');">
+                                    <a class="nav-link text-white" href="Historia.aspx"><i class="bi bi-vector-pen mr-2"></i>Historia</a>
+                                </li>
+                                <li class="nav-item rounded-pill" id="item_3" onmouseover="ResaltarOpcion('item_3', '#003958');" onmouseout="noResaltarOpcion('item_3', 'transparent');">
+                                    <a class="nav-link text-white" href="Galeria.aspx"><i class="bi bi-image mr-2"></i>Galería</a>
+                                </li>
+                                <li class="nav-item rounded-pill" id="item_4" onmouseover="ResaltarOpcion('item_4', '#003958');" onmouseout="noResaltarOpcion('item_4', 'transparent');">
+                                    <a class="nav-link text-white" href="Recetas.aspx"><i class="bi bi-receipt mr-2"></i>¿Cómo preparar...?</a>
+                                </li>
+                                <li class="nav-item rounded-pill" id="item_5" onmouseover="ResaltarOpcion('item_5', '#003958');" onmouseout="noResaltarOpcion('item_5', 'transparent');">
+                                    <a class="nav-link text-white" href="Contacto.aspx"><i class="bi bi-envelope mr-2"></i>Contáctenos</a>
+                                </li>
+                            </ul>
+                        </nav>                
                     </div>
-                </div>                
-                <ul class="nav nav-justified py-3 border-top border-white menu">
-                    <li class="nav-item rounded-pill" id="item_1" onmouseover="ResaltarOpcion('item_1', 'royalblue');" onmouseout="noResaltarOpcion('item_1', 'transparent')">
-                        <a class="nav-link text-white font-weight-bold" href="Inicio.aspx">Inicio</a>
-                    </li>
-                    <li class="nav-item rounded-pill" id="item_2" onmouseover="ResaltarOpcion('item_2', 'royalblue');" onmouseout="noResaltarOpcion('item_2', 'transparent')">
-                        <a class="nav-link text-white font-weight-bold" href="Historia.aspx">Historia</a>
-                    </li>                    
-                    <li class="nav-item rounded-pill" id="item_4" onmouseover="ResaltarOpcion('item_4', 'royalblue');" onmouseout="noResaltarOpcion('item_4', 'transparent')">
-                        <a class="nav-link text-white font-weight-bold" href="Galeria.aspx">Galería</a>
-                    </li>
-                    <li class="nav-item rounded-pill" id="item_3" onmouseover="ResaltarOpcion('item_3', 'royalblue');" onmouseout="noResaltarOpcion('item_3', 'transparent')">
-                        <a class="nav-link text-white font-weight-bold" href="Recetas.aspx">¿Cómo preparar...?</a>
-                    </li>
-                    <li class="nav-item rounded-pill" id="item_5" onmouseover="ResaltarOpcion('item_5', 'royalblue');" onmouseout="noResaltarOpcion('item_5', 'transparent')">
-                        <a class="nav-link text-white font-weight-bold" href="Contacto.aspx">Contacto</a>
-                    </li>
-                </ul>
+                </div>
             </div>
         </header>
 
@@ -77,44 +88,44 @@
         <footer>                                               
             <div class="container-fluid text-white" id="contacto" style="background-color:#003958;">
                 <h3 class="mb-0 py-4 text-white text-center">Manténgase en contacto con nosotros</h3>
-                <div class="row justify-content-around my-4">
+                <div class="row justify-content-around mb-4">
                     
                     <!-- Enlaces a las páginas -->
-                    <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
                         <div class="list-group list-group-flush">
-                            <a href="Inicio.aspx" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-house-door-fill mr-3"></i>Inicio</a>
-                            <a href="Historia.aspx" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-calendar-date-fill mr-3"></i>Historia</a>
-                            <a href="Galeria.aspx" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-image mr-3"></i>Galería</a>
-                            <a href="Recetas.aspx" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-receipt mr-3"></i>¿Cómo preparar...?</a>
-                            <a href="Contacto.aspx" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-envelope-fill mr-3"></i>Contacto</a>                            
+                            <a href="Inicio.aspx" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-house-door mr-2"></i>Inicio</a>
+                            <a href="Historia.aspx" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-vector-pen mr-2"></i>Historia</a>
+                            <a href="Galeria.aspx" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-image mr-2"></i>Galería</a>
+                            <a href="Recetas.aspx" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-receipt mr-2"></i>¿Cómo preparar...?</a>
+                            <a href="Contacto.aspx" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-envelope mr-2"></i>Contacto</a>                            
                         </div>
                     </div>
                     
                     <!-- Redes sociales -->
-                    <div class="col-4 col-sm-4 col-md-3 col-lg-3 col-xl-3">                        
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">                        
                         <div class="list-group list-group-flush">
-                            <a href="https://www.facebook.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-facebook text-white mr-3"></i>Un buen café para el alma</a>
-                            <a href="http://instagram.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-instagram mr-3"></i>Un buen café para el alma</a>                            
-                            <a href="https://www.pinterest.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-pinterest mr-3"></i>Un buen café para el alma</a>
-                            <a href="http://www.youtube.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-youtube text-white mr-3"></i>Un buen café para el alma</a>
-                            <a href="https://twitter.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="fa-brands fa-x-twitter mr-3"></i>Un buen café para el alma</a>
+                            <a href="https://www.facebook.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-facebook text-white mr-2"></i>Un buen café para el alma</a>
+                            <a href="http://instagram.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-instagram mr-2"></i>Un buen café para el alma</a>                            
+                            <a href="https://www.pinterest.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-pinterest mr-2"></i>Un buen café para el alma</a>
+                            <a href="http://www.youtube.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-youtube text-white mr-2"></i>Un buen café para el alma</a>
+                            <a href="https://twitter.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="fa-brands fa-x-twitter mr-2"></i>Un buen café para el alma</a>
                         </div>
                     </div>
                     
                     <!-- Localización -->
-                    <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
                         <ul class="list-group list-group-flush">
-                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telephone-fill mr-3"></i>(+506) 222-2222</li>
-                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-phone-fill mr-3"></i>(+506) 8888-8888</li>
-                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-whatsapp mr-3"></i>(+506) 8888-9999</li>
-                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telegram mr-3"></i>(+000) 1234-5678</li>                             
-                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-envelope-fill mr-3"></i>correo@correo.com</li>                            
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telephone-fill mr-2"></i>(+506) 222-2222</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-phone-fill mr-2"></i>(+506) 8888-8888</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-whatsapp mr-2"></i>(+506) 8888-9999</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telegram mr-2"></i>(+000) 1234-5678</li>                             
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-envelope-fill mr-2"></i>correo@correo.com</li>                            
                         </ul>
                     </div>
                 </div>
                 
-                <div>
-                    <div class="row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 justify-content-center border-white border-top text-center py-3 mx-0">        
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 border-white border-top text-center py-3 mx-0">        
                         <div class="copyright text-white mb-0"><i class="far fa-copyright text-white mr-2"></i>Lorem ipsum dolor sit amet 2022 - consectetur elit adipiscing</div>
                     </div>   
                 </div>                                                                                

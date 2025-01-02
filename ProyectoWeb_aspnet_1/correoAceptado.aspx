@@ -33,43 +33,50 @@
         <link rel="shortcut icon" type="image/x-icon" href="imagenes/dbjBebida_7.png"/>            
     </head>
     <body class="fondoCorreo">
-        <div class="colorFondo">
-            <div class="container pt-5">
+        <div class="colorFondo vh-100">                    
+            <div class="container pt-4">
                 <div class="row justify-content-center pb-4">
-                    <i class="bi bi-check-circle" style="font-size: 5rem; color:green"></i>
+                    <i class="bi bi-check-circle text-success" style="font-size: 5em;"></i>
                 </div>
                 <div class="row justify-content-center pb-4">
-                    <h1 class="mb-0">Su comentario fue enviado con éxito</h1>
+                    <h1 class="mb-0 font-weight-bold">Su comentario fue enviado con éxito</h1>
                 </div>
-                <div class="row justify-content-center pb-5">
+                <div class="row justify-content-center pb-4">
                     <h5 class="mb-0">Nos pondremos en contacto con usted a la mayor brevedad posible</h5>
                 </div>        
+                <div class="row justify-content-center pb-4">
+                    <img src="imagenes/logocolor.png" class="img-fluid w-100" alt="Logo sitio web"/>                
+                </div>
                 <div class="row justify-content-center pb-5">
-                    <img src="imagenes/dbjBebida_1.png" class="img-fluid" width="275" alt="Logo taller"/>                
-                </div>
-                <div class="row justify-content-center pb-5"">
                     <a href="Inicio.aspx" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Volver a inicio</a>
-                </div>
+                </div> 
                 <div class="row justify-content-around border-bottom border-top border-secondary">    
-                    <div class="my-2">                
-                        <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook text-primary" style="font-size: 2rem; color:black"></i></a>
-                    </div>                
-                    <div class="my-2">                
-                        <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp text-success" style="font-size: 2rem; color:black"></i></a>
+                    <div class="py-2">                
+                        <a href="https://www.facebook.com/" target="_blank"><i class="iconoRedes bi bi-facebook text-primary"></i></a>
+                    </div>                                    
+                    <div class="py-2">                
+                        <a href="http://instagram.com/" target="_blank"><i class="iconoRedes bi bi-instagram text-danger"></i></a>
                     </div>
-                    <div class="my-2">                
-                        <a href="http://instagram.com/" target="_blank"><i class="bi bi-instagram text-danger" style="font-size: 2rem; color:black"></i></a>
+                    <div class="py-2">                
+                        <a href="https://www.pinterest.com/" target="_blank"><i class="iconoRedes bi bi-pinterest text-danger"></i></a>
                     </div>
-                    <div class="my-2">                
-                        <a href="http://www.youtube.com/" target="_blank"><i class="bi bi-youtube text-danger" style="font-size: 2rem; color:black"></i></a>
-                    </div> 
+                    <div class="py-2">                
+                        <a href="http://www.youtube.com/" target="_blank"><i class="iconoRedes bi bi-youtube text-danger"></i></a>
+                    </div>
+                    <div class="py-2">                
+                        <a href="https://twitter.com/" target="_blank"><i class="iconoRedes fa-brands fa-x-twitter text-dark"></i></a>
+                    </div>
+                    <div class="py-2">                
+                        <a href="https://web.whatsapp.com/" target="_blank"><i class="iconoRedes bi bi-whatsapp text-success"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
-
+                                
         <!-- Archivos JavaScript utilizados por Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+        
     </body>
 </html>

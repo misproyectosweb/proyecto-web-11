@@ -5,23 +5,25 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-    <div class="row justify-content-center py-5">
-        <div class="text-center titulo">            
-            <h1 class="mb-0 text-center display-4 my-3">¿Cómo preparar...?</h1>
-        </div>
+    <div class="row justify-content-center mx-auto py-5">
+        <h1 class="mb-0 display-4 text-center text-uppercase">¿Cómo preparar...?</h1>
     </div>
 
     <div class="container">
-        <div class="row justify-content-center border-bottom border-dark-50 mb-4 px-3">
-            <p class="textoSeccion mb-4 text-center">Tus bebidas con café favoritas no solo están en los mejores restaurantes y cafeterías, puedes prepararlas justo en tu cocina. Tomar café es un ritual obligado para la mayoría de los adultos, es reconfortante, te llena de energía y antioxidantes, y te deja un buen sabor de boca para empezar el día con toda la actitud. Es una tradición y uno de los grandes placeres de la vida que podemos satisfacer a toda hora y en todo lugar. Los verdaderos amantes del café saben que el secreto está en los granos y en el tostado, en elegir una base con la mejor calidad, aroma, cuerpo y sabor, que es la clave para crear todo tipo de combinaciones y versiones, desde lo sencillo, hasta lo dulce y vibrante.</p>
+        <div class="row justify-content-center px-5">
+            <p class="textoSeccion text-center">Tus bebidas con café favoritas no solo están en los mejores restaurantes y cafeterías, puedes prepararlas justo en tu cocina. Tomar café es un ritual obligado para la mayoría de los adultos, es reconfortante, te llena de energía y antioxidantes, y te deja un buen sabor de boca para empezar el día con toda la actitud. Es una tradición y uno de los grandes placeres de la vida que podemos satisfacer a toda hora y en todo lugar. Los verdaderos amantes del café saben que el secreto está en los granos y en el tostado, en elegir una base con la mejor calidad, aroma, cuerpo y sabor, que es la clave para crear todo tipo de combinaciones y versiones, desde lo sencillo, hasta lo dulce y vibrante.</p>
         </div>
+    </div>
+
+    <div class="row justify-content-center mx-auto pb-4">
+        <img src="imagenes/lineadecorativa_2.png" class="img-fluid w-75" alt="" />
     </div>
 
     <!-- Fila uno -->
     <div class="row m-3">
         <div class="card mb-3 mx-auto bg-light" style="max-width: 540px;">
             <div class="row no-gutters">
-                <div class="col-md-5">
+                <div class="col-md-5 p-2">
                     <img src="imagenes/imgCafeIrlandes.jpg" class="img-fluid img-thumbnail p-2 bg-info" alt="imagen café irlandés">
                 </div>
                 <div class="col-md-7">
@@ -37,7 +39,7 @@
 
         <div class="card mb-3 mx-auto bg-light" style="max-width: 540px;">
             <div class="row no-gutters">
-                <div class="col-md-5">
+                <div class="col-md-5 p-2">
                     <img src="imagenes/imgCafeMocaMenta.jpg" class="img-fluid img-thumbnail p-2 bg-info" alt="imagen café mocha con menta">
                 </div>
                 <div class="col-md-7">
@@ -56,7 +58,7 @@
     <div class="row m-3">
         <div class="card mb-3 mx-auto bg-light" style="max-width: 540px;">
             <div class="row no-gutters">
-                <div class="col-md-5">
+                <div class="col-md-5 p-2">
                     <img src="imagenes/imgCafeHawaiano.jpg" class="img-fluid img-thumbnail p-2 bg-info" alt="imagen café hawaiano">
                 </div>
                 <div class="col-md-7">
@@ -72,7 +74,7 @@
 
         <div class="card mb-3 mx-auto bg-light" style="max-width: 540px;">
             <div class="row no-gutters">
-                <div class="col-md-5">
+                <div class="col-md-5 p-2">
                     <img src="imagenes/imgPumpkinSpiceLatte.jpg" class="img-fluid img-thumbnail p-2 bg-info" alt="imagen café con leche, calabaza y especias">
                 </div>
                 <div class="col-md-7">
@@ -91,7 +93,7 @@
     <div class="row m-3">
         <div class="card mb-3 mx-auto bg-light" style="max-width: 540px;">
             <div class="row no-gutters">
-                <div class="col-md-5">
+                <div class="col-md-5 p-2">
                     <img src="imagenes/imgCafeFrappeOreo.jpg" class="img-fluid img-thumbnail p-2 bg-info" alt="imagen café frappé Oreo">
                 </div>
                 <div class="col-md-7">
@@ -105,9 +107,9 @@
             </div>
         </div>
 
-        <div class="card mb-3 mx-auto bg-light" style="max-width: 900px;">
+        <div class="card mb-3 mx-auto bg-light" style="max-width: 540px;">
             <div class="row no-gutters">
-                <div class="col-md-5">
+                <div class="col-md-5 p-2">
                     <img src="imagenes/imgCafeChaiHelado.jpg" class="img-fluid img-thumbnail p-2 bg-info" alt="imagen café con te chai helado">
                 </div>
                 <div class="col-md-7">
@@ -120,7 +122,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
 
 </asp:Content>
 

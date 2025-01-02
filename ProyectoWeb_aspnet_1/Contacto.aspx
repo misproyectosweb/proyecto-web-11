@@ -5,27 +5,26 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-    <div class="row justify-content-center py-5">
-        <div class="text-center">
-            <h1 class="mb-0 titulo display-4">Contáctenos</h1>
-        </div>
+    <div class="row justify-content-center mx-auto py-5">
+        <h1 class="mb-0 display-4 text-center text-uppercase">contáctenos</h1>
     </div>
-    <div class="row justify-content-center pb-3">
-        <div class="text-center">
-            <h2 class="mb-0 titulo">¿Te gustó nuestro sitio web?</h2>
-        </div>
-    </div>
+
     <div class="row justify-content-center pb-5">
         <div class="text-center">
-            <h3 class="mb-0 titulo">Envíanos un comentario</h3>
+            <h1 class="mb-0 display-4 pb-3">¿Te gustó nuestro sitio web?</h1>
+            <h2 class="mb-0">Envíanos un comentario</h2>
         </div>
+    </div>
+
+    <div class="row justify-content-center mx-auto pb-4">
+        <img src="imagenes/lineadecorativa_2.png" class="img-fluid w-75" alt="" />
     </div>
     
     <!-- Formulario de contacto -->
-    <div class="container-fluid border-top border-dark-50 bg-light">
+    <div class="container-fluid border-top border-dark-50">
         <div class="row justify-content-center align-items-center">
             <div class="col-11 col-sm-11 col-md-11 col-lg-10 col-xl-6 p-4">
-                <form action="Contacto.aspx" id="form" runat="server" class="p-3 border border-dark-50 rounded-lg needs-validation" method="post">
+                <form action="Contacto.aspx" id="form" runat="server" class="bg-light p-3 border border-dark-50 rounded-lg needs-validation" method="post">
                     <div class="table-responsive">
                         <table>
                             <thead>
@@ -39,8 +38,8 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <asp:TextBox ID="txtNombre" name="nombre" value="" CssClass="form-control" runat="server" Width="550px"></asp:TextBox>
-                                        <asp:RequiredFieldValidator ID="rfvNombre" runat="server" ControlToValidate="txtNombre" ErrorMessage="Completa este campo" ForeColor="#FF3300" Font-Size="Small"></asp:RequiredFieldValidator>
+                                        <asp:TextBox runat="server" ID="txtNombre" name="nombre" value="" CssClass="form-control" Width="550px"></asp:TextBox>
+                                        <asp:RequiredFieldValidator runat="server" ID="rfvNombre" ControlToValidate="txtNombre" ErrorMessage="Completa este campo" ForeColor="#FF3300" Font-Size="Small"></asp:RequiredFieldValidator>
                                     </td>
                                 </tr>
                                 <tr>
@@ -103,12 +102,12 @@
 
             <div class="col-11 col-sm-11 col-md-11 col-lg-10 col-xl-6 p-4">
                 <div class="imgFondoContacto">
-                    <div class="colorFondoContacto">
-                        <div class="col-7 px-0 mx-auto">
-                            <div class="row vh-100">
-                                <blockquote class="mb-0 blockquote text-center text-white citaContacto py-5">
-                                    <p class="mb-0 text-white">" A quien madruga, un buen café le ayuda "</p>
-                                    <%--<footer class="blockquote-footer text-white text-right">Anónimo</footer>--%>
+                    <div class="colorFondo">
+                        <div class="col-8 px-0 mx-auto">
+                            <div class="row vh-100 align-items-center">
+                                <blockquote class="blockquote text-center text-white py-5">
+                                    <p class="citaContacto">" A quien madruga, un buen café le ayuda "</p>
+                                    <footer class="blockquote-footer text-white text-right">Anónimo</footer>
                                 </blockquote>
                             </div>
                         </div>

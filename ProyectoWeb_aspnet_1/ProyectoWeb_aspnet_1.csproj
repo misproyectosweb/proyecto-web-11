@@ -81,8 +81,6 @@
     <Content Include="estilos\mensajeCorreo.css" />
     <Content Include="Galeria.aspx" />
     <Content Include="Historia.aspx" />
-    <Content Include="imagenes\dbjBebida_1.png" />
-    <Content Include="imagenes\dbjBebida_2.png" />
     <Content Include="imagenes\dbjBebida_3.png" />
     <Content Include="imagenes\fotoHistoriaCafe_01.jpg" />
     <Content Include="imagenes\fotoHistoriaCafe_02.jpg" />
@@ -109,7 +107,10 @@
     <Content Include="imagenes\imgCafe_6.png" />
     <Content Include="imagenes\imgCafe_7.png" />
     <Content Include="imagenes\imgPumpkinSpiceLatte.jpg" />
-    <Content Include="imagenes\lineaDecorativa_1.png" />
+    <Content Include="imagenes\lineadecorativa_1.png" />
+    <Content Include="imagenes\lineadecorativa_2.png" />
+    <Content Include="imagenes\logoblanco.png" />
+    <Content Include="imagenes\logocolor.png" />
     <Content Include="imagenes\plantadecafe_1.png" />
     <Content Include="imagenes\plantadecafe_2.png" />
     <Content Include="Inicio.aspx" />

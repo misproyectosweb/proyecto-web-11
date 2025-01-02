@@ -6,20 +6,22 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-    <div class="row justify-content-center py-5">
-        <div class="text-center titulo">
-            <h1 class="mb-0 text-center display-4 my-3">La historia del café</h1>
-        </div>
+    <div class="row justify-content-center mx-auto py-5">
+        <h1 class="mb-0 display-4 text-center text-uppercase">la historia del café</h1>
     </div>
 
     <div class="container">
-        <div class="row justify-content-center border-bottom border-dark-50 mb-4 px-3">
-            <p class="textoSeccion mb-4 text-center">La historia del café ciertamente es una epopeya fascinante, dado que recorre los itinerarios que sus famosos y renombrados granos realizaron a lo largo de los siglos en todo el mundo. Por momentos pasado como contrabando o robado a la realeza y a los nobles, el café es uno de los productos que cambiaron la economía mundial de forma irreversible.</p>
+        <div class="row justify-content-center px-5">
+            <p class="textoSeccion text-center">La historia del café ciertamente es una epopeya fascinante, dado que recorre los itinerarios que sus famosos y renombrados granos realizaron a lo largo de los siglos en todo el mundo. Por momentos pasado como contrabando o robado a la realeza y a los nobles, el café es uno de los productos que cambiaron la economía mundial de forma irreversible.</p>
         </div>
     </div>
 
+    <div class="row justify-content-center mx-auto pb-4">
+        <img src="imagenes/lineadecorativa_2.png" class="img-fluid w-75" alt="" />
+    </div>
+
     <div class="imgFondoHistoriaUno">
-        <div class="colorFondoHistoria">
+        <div class="colorFondoTextos">
             <div class="row">
                 <div class="mx-5 pt-4">
                     <h3 class="text-uppercase font-weight-bold mb-3">la historia del café en el mundo</h3>
@@ -56,14 +58,14 @@
         </div>
     </div>
 
-    <div class="row my-4">
-        <img src="imagenes/lineaDecorativa_1.png" class="img-fluid mx-auto d-block" alt="" />
+    <div class="row justify-content-center mx-auto my-5">
+        <img src="imagenes/lineaDecorativa_1.png" class="img-fluid w-50" alt="" />
     </div>
 
     <div class="imgFondoHistoriaDos">
-        <div class="colorFondoHistoria">
+        <div class="colorFondoTextos">
             <div class="row">
-                <div class="mx-5 pt-4">
+                <div class="mx-5">
                     <h3 class="text-uppercase font-weight-bold mb-3">la historia del café en Costa Rica</h3>
                     <p class="mb-1">La fecha probable de la introducción del café a América es 1720, cuando las primeras semillas de la especie Coffea Arábica, variedad Typica llegaron a la isla Martinica, Antillas, que luego fueron sembradas en la Provincia Costa Rica a finales del siglo XVIII.</p>
                     <p class="mb-1">En esa época nuestro país tenía una agricultura de subsistencia. La historia costarricense cambió desde 1808: bajo la égida del gobernador Tomás de Acosta empezó a arraigarse en nuestro suelo el cultivo del café, que ha calado muy hondo en el ser y quehacer costarricense.</p>
@@ -95,7 +97,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>  
 
     <%--Presentación del texto de manera desplegable--%>
     <%--<div class="row">
